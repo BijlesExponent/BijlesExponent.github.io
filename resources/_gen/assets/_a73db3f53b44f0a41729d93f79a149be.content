@@ -653,8 +653,8 @@ template {
 
 :root {
   
-  --primary: var(--blue1);
-  --primary-alt: var(--blue2);
+  --primary: var(--orange1);
+  --primary-alt: var(--orange2);
 }
 
 :root {

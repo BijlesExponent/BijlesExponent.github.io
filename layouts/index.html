@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <div class="content-section">
+    <h1>{{ .Title | markdownify }}</h1>
+
+    {{ with .Params.subtitle }}
+      <h3 class="subtitle">{{ . | markdownify }}</h3>
+    {{ end }}
+
+    {{ with .Params.image }}
+    <div class="post-image">
+      <img src="{{ . }}" alt="{{ $.Title }}">
+    </div>
+    {{ end }}
+
+    {{ with .Content }}
+      <div>{{ . }}</div>
+    {{ end }}
+  </div>
+
+  {{ partial "post-list.html" .Paginator }}
+{{ end }}

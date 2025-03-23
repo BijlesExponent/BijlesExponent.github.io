@@ -1,5 +1,6 @@
 baseURL = "http://BijlesExponent.github.io"
 languageCode = 'nl-be'
+defaultContentLanguage = "nl"
 copyright = "Copyright © 2025"
 title = "Bijles Exponent - Voor een MACHTig resultaat!"
 #paginate = 10
@@ -92,17 +93,17 @@ enableRobotsTXT = true
 [params]
   # dark or light, defaults to light. Local storage and OS preference override this param. For more details see: 
   # https://github.com/schnerring/hugo-theme-gruvbox/issues/34#issuecomment-1235870375
-  #defaultTheme = "light"
+  defaultTheme = "dark"
   # gray red green yellow blue purple aqua orange, defaults to blue
-  #themeColor = "blue"
+  themeColor = "orange"
   # soft medium hard, defaults to medium
   #themeContrast = "medium"
-  author = "Michael Schnerring"
-  subtitle = "Theme Demo"
-  description = "A retro-looking Hugo theme inspired by gruvbox. The pastel colors are high contrast, easily distinguishable, pleasing to the eye, and feature light and dark color palettes."
+  author = "Miguel Lejeune & Quinten De Block"
+  subtitle = "Bijles Exponent"
+  description = "Een website voor Bijlesbureau Exponent"
 
   [params.logo]
-    text = "Bijles Exponent"
+    text = "Exponent"
     url = "/"
 
   [params.prism]
@@ -191,6 +192,8 @@ enableRobotsTXT = true
   #  iconName = "outline/mail"
   #  formatString = "mailto:?subject={title}&body={url}"
 
+
+
 [menu]
   [[menu.main]]
     identifier = "over_ons"
@@ -198,24 +201,27 @@ enableRobotsTXT = true
     url = "/over_ons"
     weight = 10
   [[menu.main]]
+    identifier = "onze_missie"
+    name = "Onze Missie"
+    url = "/onze_missie"
+    weight = 20
+  [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact"
-    weight = 20
-  #[[menu.main]]
-  #  identifier = "about"
-  #  name = "About"
-  #  url = "/about"
-  #  weight = 50
+    weight = 30
+
+
+
 
 [languages]
-  [languages.en]
-    languageName = "English"
+  [languages.nl]
+    languageName = "Nederlands"
     weight = 10
+    [languages.nl.params.jsonResume]
+      present = "heden"
+  [langauges.en]
+    languageName = "English"
+    weight = 20
     [languages.en.params.jsonResume]
       present = "present"
-  [languages.de]
-    languageName = "Deutsch"
-    weight = 20
-    [languages.de.params.jsonResume]
-      present = "heute"
