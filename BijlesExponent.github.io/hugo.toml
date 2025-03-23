@@ -60,3 +60,7 @@ title = 'My New Hugo Site'
     # Add hugo_stats.json to Hugo's server watcher
     source = "hugo_stats.json"
     target = "assets/watching/hugo_stats.json"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
