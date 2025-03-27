@@ -6,16 +6,19 @@
       <h3 class="subtitle">{{ . | markdownify }}</h3>
     {{ end }}
 
-    {{ with .Params.image }}
+    {{/*  {{ with .Params.image }}
     <div class="post-image">
       <img src="{{ . }}" alt="{{ $.Title }}">
     </div>
-    {{ end }}
+    {{ end }}  */}}
 
     {{ with .Content }}
       <div>{{ . }}</div>
     {{ end }}
   </div>
 
-  {{ partial "post-list.html" .Paginator }}
+  {{ $pages := where site.Pages "Type" "in" site.Params.mainSections }}
+  {{ $paginator := .Paginate $pages }}
+  {{ partial "post-list.html" $paginator }}
+
 {{ end }}

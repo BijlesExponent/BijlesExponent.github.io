@@ -75,6 +75,8 @@ enableRobotsTXT = true
       # which is useful and required to use Prism plugins, but may be dangerous 
       # if the content isn't trustworthy.
       unsafe = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
 
 [imaging]
   # JPEG and WebP image processing quality, defaults to 75%
@@ -196,20 +198,25 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    identifier = "over_ons"
-    name = "Over Ons"
-    url = "/over_ons"
+    identifier = "Onderwerpen"
+    name = "Onderwerpen"
+    url = "#onderwerpen"
     weight = 10
   [[menu.main]]
-    identifier = "onze_missie"
-    name = "Onze Missie"
-    url = "/onze_missie"
+    identifier = "over_ons"
+    name = "Over Ons"
+    url = "#over-ons"
     weight = 20
+  [[menu.main]]
+    identifier = "tarieven"
+    name = "Tarieven"
+    url = "#tarieven"
+    weight = 30
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
-    url = "/contact"
-    weight = 30
+    url = "#contact"
+    weight = 40
 
 
 
