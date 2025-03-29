@@ -9,7 +9,6 @@
       "div",
       "footer",
       "h1",
-      "h2",
       "h3",
       "head",
       "header",
@@ -72,7 +71,6 @@
       "pagination",
       "post",
       "post-content",
-      "post-heading__anchor",
       "search",
       "search__suggestions--hidden",
       "sidebar",
@@ -80,15 +78,11 @@
       "theme__toggle"
     ],
     "ids": [
-      "contact",
       "menu",
-      "onderwerpen",
-      "over-ons",
       "prism-dark",
       "prism-light",
       "search__suggestions",
-      "search__text",
-      "tarieven"
+      "search__text"
     ]
   }
 }
