@@ -1,7 +1,161 @@
-header {
+/* Editable color variables */
+:root {
+    --header-bg: rgb(16, 15, 13);
+    --header-text: rgb(177, 152, 108);
+    --body-bg:rgb(228, 211, 180);
+  }
+  
+  /* Reset and base */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: var(--body-bg);
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 30px;
+  }
+
+  h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
+    scroll-margin-top: 80px;
+  }
+  
+  /* Sticky header */
+  .sticky-header {
     position: sticky;
     top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-bg);
+    color: var(--header-text);
+    padding: 1rem 2rem;
     z-index: 1000;
-    /* background: white; or match your site background */
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .sticky-header .logo a {
+    font-weight: bold;
+    color: var(--header-text);
+    margin-left: 3rem;
+  }
+  
+  .nav-links a {
+    margin-left: 20px;
+    font-size: 25px;
+    color: var(--header-text);
+    margin-right: 2rem;
+  }
+  
+  /* Layout */
+  .main-container {
+    display: flex;
+    margin: 2rem;
+    margin-left: 13rem;
+  }
+  
+  .content {
+    flex: 1;
+    padding-right: 2rem;
+    margin-right: 550px
+  }
+  
+  .sidebar {
+    width: 250px;
+    position: fixed;
+    right: 15rem;
+    top: 200px;
+  }
+  
+  .sidebar img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .main-image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem; /* space below the image */
+  }
+  
+  .main-image {
+    width: 500px;         /* or whatever size you want */
+    height: auto;         /* keeps aspect ratio */
+    border-radius: 15px;  /* optional rounding */
+  }
+
+
+
+
+
+  /* Calendar */
+  .calendar-wrapper {
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 40px;
+    margin-top: 2rem;
+  }
+
+
+  /* Contact Form */
+  .contact-form {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #888;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--header-bg);
+    color: var(--header-text);
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #222;
+  }
+
+  .form-error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+  }
+
+  .form-success {
+    color: green;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
   }
