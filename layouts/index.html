@@ -12,9 +12,34 @@
 
 <script>
   window.addEventListener("DOMContentLoaded", () => {
+
+    // Hamburger menu on mobile
+    const navToggle = document.getElementById("nav-toggle");
+    const navLinks = document.getElementById("nav-links");
+    
+    // Open
+    if (navToggle && navLinks) {
+      navToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("open");
+      });
+    }
+
+    // Close on link click
+    if (window.innerWidth <= 1200) {
+      document.querySelectorAll(".nav-links a").forEach(link => {
+        link.addEventListener("click", () => {
+          const navLinks = document.getElementById("nav-links");
+          navLinks.classList.remove("open");
+        });
+      });
+    }
+
+
+
+    
+    // Form handling
     const form = document.getElementById("form");
     if (!form) return;
-
     // Dynamically set redirect URL
     const redirectInput = document.createElement("input");
     redirectInput.type = "hidden";
@@ -23,10 +48,10 @@
     form.appendChild(redirectInput);
 
     // Detect redirect back to #contact with success
+    const successMsg = document.getElementById("success-message");
     const queryString = window.location.search || window.location.hash.split('?')[1] || "";
     const urlParams = new URLSearchParams(queryString);
     const wasSuccessful = urlParams.get("success") === "true";
-    const successMsg = document.getElementById("success-message");
 
     if (wasSuccessful && successMsg) {
       form.reset();
@@ -78,12 +103,15 @@
 
 <body>
   <header class="sticky-header">
-    <div class="logo"><a href="/">Exponent</a></div>
-    <nav class="nav-links">
+    <div class="header-top">
+      <div class="logo"><a href="/">Exponent</a></div>
+      <button class="nav-toggle" id="nav-toggle">☰ Menu</button>
+    </div>
+    <nav class="nav-links" id="nav-links">
         {{ range .Site.Menus.main }}
           <a href="{{ .URL }}">{{ .Name }}</a>
         {{ end }}
-      </nav>
+    </nav>
   </header>
 
   <div class="main-container">

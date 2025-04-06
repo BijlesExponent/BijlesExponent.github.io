@@ -98,7 +98,9 @@ Bekijk onderstaande kalender om te zien welke tijdssloten zouden passen.
   <input type="email" name="email" required>
   <label for="message">Bericht:</label>
   <textarea name="message" rows="5" required></textarea>
-  <div class="h-captcha" data-captcha="true"></div>
+  <div class="captcha-wrapper">
+    <div class="h-captcha" data-captcha="true"></div>
+  </div>
   <p id="captcha-error" class="form-error" style="display: none;">Gelieve de captcha in te vullen.</p>
   <button type="submit">Verzenden</button>
 </form>

@@ -1,14 +1,34 @@
+@font-face {
+  font-family: "Aptos";
+  src: url("/fonts/Aptos.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aptos-Light";
+  src: url("/fonts/Aptos-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 /* Editable color variables */
 :root {
-    --header-bg: rgb(220, 159, 6);
-    --header-text: rgb(177, 152, 108);
-    --body-bg:rgba(255, 224, 130, 0.897);
+    --header-bg: rgb(54, 48, 34);
+    --header-text: rgb(176, 172, 117);
+    --body-bg:rgba(246, 237, 210, 0.9);
   }
-  
+
+  html {
+    scroll-behavior: smooth;
+  }
+
   /* Reset and base */
   body {
     margin: 0;
-    font-family: Garamond, serif;
+    font-family: "Aptos";
     font-size: 20px;
     background-color: var(--body-bg);
   }
@@ -23,6 +43,7 @@
     scroll-margin-top: 80px;
   }
   
+
   /* Sticky header */
   .sticky-header {
     position: sticky;
@@ -34,6 +55,14 @@
     color: var(--header-text);
     padding: 1rem 2rem;
     z-index: 1000;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .sticky-header .logo a {
@@ -47,26 +76,34 @@
     font-size: 25px;
     color: var(--header-text);
     margin-right: 2rem;
+    align-self: right;
   }
+
+
+
   
   /* Layout */
   .main-container {
     display: flex;
-    margin: 2rem;
-    margin-left: 8rem;
+    padding: 2rem 2rem 2rem 8rem; /* top, right, bottom, left */
+    gap: 2rem; /* space between content and sidebar */
+    max-width: 100%;
+    box-sizing: border-box;
   }
   
   .content {
     flex: 1;
-    padding-right: 2rem;
-    margin-right: 550px
+    min-width: 0;
   }
   
   .sidebar {
     width: 250px;
-    position: fixed;
-    right: 15rem;
-    top: 100px;
+    flex-shrink: 0; /* Prevent sidebar from shrinking */
+    position: relative; /* or fixed/absolute if needed */
+    box-sizing: border-box;
+    margin-left: 2rem; /* ✅ Add spacing between content and sidebar if needed */
+    margin-right: 5rem;
+    top: 80px;
   }
   
   .sidebar img {
@@ -83,6 +120,7 @@
   
   .main-image {
     width: 500px;         /* or whatever size you want */
+    max-width: 100%;
     height: auto;         /* keeps aspect ratio */
     border-radius: 15px;  /* optional rounding */
   }
@@ -94,7 +132,6 @@
   /* Calendar */
   .calendar-wrapper {
     max-width: 100%;
-    overflow: hidden;
     border-radius: 40px;
     margin-top: 2rem;
   }
@@ -159,3 +196,148 @@
     margin-top: 1rem;
     font-weight: bold;
   }
+
+
+  /* Captcha */
+  .captcha-wrapper {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto; /* allows scroll if captcha insists on being wide */
+    margin-bottom: 1rem;
+  }
+  
+  .captcha-wrapper .h-captcha {
+    max-width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* For phone:  */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--header-text);
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+
+  /* header */
+  .sticky-header {
+    position: sticky;
+    flex-direction: column;
+  }
+
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* Show hamburger menu */
+  .nav-toggle {
+    display: block;
+  }
+
+  /* Hide nav links by default */
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    background-color: var(--header-bg);
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+
+  /* Show nav links when menu is open */
+  .nav-links.open {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .nav-links a {
+    margin: 0.5rem 0;
+    color: var(--header-text);
+    padding-right: 3rem;
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+  body {
+    font-size: 16px;
+  }
+  
+
+
+  /* Hide sidebar */
+  .sidebar {
+    display: none;
+  }
+
+  /* Layout */
+  .main-container {
+    display: flex;
+    padding: 2rem 2rem 2rem 8rem; /* top, right, bottom, left */
+    gap: 2rem; /* space between content and sidebar */
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  .nav-toggle {
+    font-size: 1.2rem;
+  }
+
+  /* Layout */
+  .main-container {
+    padding: 2rem 2rem 2rem 6rem; /* top, right, bottom, left */
+  }
+
+  .sticky-header .logo a {
+    font-weight: bold;
+    color: var(--header-text);
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Layout */
+  .main-container {
+    padding: 2rem 2rem 2rem 4rem; /* top, right, bottom, left */
+  }
+
+  .sticky-header .logo a {
+    font-weight: bold;
+    color: var(--header-text);
+    margin-left: 1rem;
+  }
+}
