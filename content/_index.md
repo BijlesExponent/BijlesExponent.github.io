@@ -2,49 +2,49 @@
 title = "Home"
 +++
 
+Zoek je persoonlijke en waardevolle ondersteuning voor wiskunde of wetenschappen? Examenstress achter je laten en vol vertrouwen aan de slag? Bij ons krijg je méér dan bijles: we zorgen dat je de leerstof écht begrijpt en helpen je de obstakels te overwinnen die je succes in de weg staan.
+
+Wij begeleiden middelbare scholieren, studenten van de examencommissie, universiteits- en hogeschoolstudenten bij wiskunde, fysica, chemie en biologie. Onze aanpak? Op maat, resultaatgericht en flexibel – online of fysiek, hoe het voor jou het beste werkt.
+Wil je met zelfvertrouwen je toetsen en examens tegemoet gaan? Neem contact op en plan je eerste sessie vandaag nog!
+
+Waarom voor ons kiezen? ✔ Persoonlijke begeleiding op maat ✔ Vakinhoudelijke ondersteuning én studiecoaching ✔ Flexibele leslocatie en lesduur ✔ Snelle en eenvoudige boeking
+
 <div class="main-image-wrapper">
   <img src="/images/bijles.jpg" alt="Header image" class="main-image">
 </div>
 
-Op zoek naar professionele en persoonlijke bijles in de exacte wetenschappen? Ons bijlesbureau helpt middelbare scholieren, studenten van de examencommissie en hoger onderwijs bij wiskunde, fysica, chemie en biologie. We combineren vakinhoudelijke begeleiding met studiecoaching, zodat je niet alleen de leerstof begrijpt, maar ook leert hoe je efficiënt studeert.
-
-Bij ons kies je voor flexibele bijlessen, zowel online als fysiek, aangepast aan jouw noden. Onze begeleiding is op maat, zodat je sneller vooruitgang boekt en met meer zelfvertrouwen je toetsen en examens aflegt.
-
-📍 Bij jou thuis, bij ons of online
-
-⏳ Flexibele lesduur
-
-📅 Eenvoudig boeken via ons contactformulier
-
-Klaar om je studieprestaties te verbeteren? Neem contact op en plan je eerste sessie!
-
 ## Over Ons
 
-Wij zijn twee gepassioneerde bijlesgevers met een achtergrond in de exacte wetenschappen en ruime ervaring in het begeleiden van studenten. Vanuit onze eigen ervaring weten we hoe uitdagend wetenschappelijke vakken kunnen zijn. Daarom zetten we ons in om complexe leerstof helder en gestructureerd uit te leggen, zodat onze studenten niet alleen slagen, maar de materie écht begrijpen.
+Wij zijn twee gepassioneerde bijlesgevers met een diploma in de ingenieurswetenschappen - en ja, wij weten als geen ander hoe pittig die exacte vakken kunnen zijn. Daarom maken wij ze begrijpelijk, behapbaar en (geloof het of niet) soms zelfs leuk!
 
-Bij ons krijg je geen standaard bijles, maar begeleiding op maat. We bekijken samen waar je vastloopt, hoe je efficiënter kan studeren en helpen je om moeilijke concepten stap voor stap onder de knie te krijgen. Onze aanpak is persoonlijk, geduldig en resultaatgericht.
+Geen standaardformule bij ons. We kijken samen waar jij vastloopt, hoe je slimmer kunt studeren en zorgen ervoor dat je zelfs de meest lastige concepten onder de knie krijgt. Persoonlijk, geduldig en resultaatgericht - zo doen wij dat. 
+Even voorstellen:
 
-Wil je weten hoe wij jou kunnen helpen? Neem contact op of plan een kennismakingsgesprek!
+<div class="main-image-wrapper">
+  <img src="/images/hmm_IMG_7269.jpg" alt="Header image" class="main-image">
+</div>
 
-## Diensten
+## Aanbod
 
-Wij bieden kwalitatieve begeleiding voor studenten die extra ondersteuning nodig hebben bij de exacte wetenschappen. Ons aanbod bestaat uit:
+#### Individuele bijles voor middelbare scholieren
 
-📌 Vakinhoudelijke bijles
-Wiskunde (algebra, meetkunde, calculus, statistiek, enz.)
-Fysica (mechanica, elektriciteit, optica, enz.)
-Chemie (anorganische en organische chemie, reactiemechanismen, enz.)
-Biologie (celbiologie, genetica, fysiologie, enz.)
+Onze bijlessen in wiskunde, chemie, fysica en biologie zijn speciaal ontwikkeld om jou te helpen uitblinken op school. Of je nu complexe formules wilt doorgronden, chemische reacties wilt begrijpen, natuurkundige principes wilt toepassen of de wonderen van het leven wilt bestuderen, bij ons kun je altijd terecht. Wij leggen het je helder uit, stap voor stap, net zo lang tot je het echt begrijpt.
 
-📌 Studiecoaching en studieplanning
-Efficiënte studiemethoden en geheugenstrategieën
-Hulp bij het maken van een realistische studieplanning
-Examenvoorbereiding en time management
+Wij zijn experts in de leerstof, maar geloven dat échte vooruitgang begint bij jezelf. Daarom houden we rekening met jouw unieke manier van leren en passen we onze begeleiding daarop aan. Zo krijg je niet alleen inhoudelijke steun, maar ook de aanpak die bij jou past!
 
-📌 Examencommissie-begeleiding
-Specifieke ondersteuning voor studenten die via zelfstudie hun diploma willen behalen
-Structuur en begeleiding op lange termijn om de leerstof zelfstandig onder de knie te krijgen
-Je kan kiezen voor individuele sessies of langere trajecten. Neem contact met ons op om een gepersonaliseerd traject uit te werken!
+#### Examenvoorbereiding voor hoger onderwijs
+
+Heb je extra ondersteuning nodig bij wiskunde, fysica of chemie in jouw opleiding? Wij helpen je om complexe leerstof grondig te begrijpen en efficiënt toe te passen. Onze begeleiding richt zich op studenten uit richtingen zoals farmaceutische wetenschappen, (toegepaste) economische wetenschappen, wetenschappen, logopedische en audiologische wetenschappen, bewegings- en revalidatiewetenschappen, (bio-)ingenieurswetenschappen en meer.
+
+Met ervaring in vakken zoals Calculus, Lineaire algebra, Analyse, Wiskunde voor economen, Organische en Anorganische chemie, Natuurkunde, Biomechanica en Celbiologie bieden we gerichte ondersteuning op maat.
+
+Naast inhoudelijke begeleiding helpen we je met planning, time-management en structuur, zodat je met vertrouwen je examens tegemoet gaat. We zorgen voor tussentijdse opvolging en laten je niet los. Bovendien beschikken we over heel wat extra studiemateriaal om je optimaal voor te bereiden.
+
+Wil je een efficiënte en gestructureerde aanpak voor je examens? Neem contact op en ontdek hoe we je kunnen helpen!
+
+#### Examenbegeleiding voor examencommissie
+
+We helpen je met een gerichte voorbereiding voor de wetenschapsvakken op de examens van de Vlaamse examencommissie. We nemen de leerstof samen door, op een manier die voor jou werkt, zodat je alles efficiënt en grondig onder de knie krijgt. Met onze persoonlijke begeleiding sta je er niet alleen voor – we begeleiden je stap voor stap naar het behalen van je diploma.
 
 ## Werkwijze
 
@@ -88,7 +88,7 @@ Bekijk onderstaande kalender om te zien welke tijdssloten zouden passen.
 
 ## Contact
 
-"Heb je vragen of wil je een eerste sessie boeken? Neem contact met ons op via het formulier, e-mail of telefoon. Wij reageren snel en helpen je graag verder!"
+Heb je vragen of wil je een eerste sessie boeken? Neem contact met ons op via het formulier, e-mail of telefoon. Wij reageren snel en helpen je graag verder!
 
 <form action="https://api.web3forms.com/submit" method="POST" id="form" class="contact-form">
   <input type="hidden" name="access_key" value="e49caaca-5fa5-4088-86ed-99342817daa0">

@@ -3,7 +3,8 @@
   src: url("/fonts/Aptos.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-}
+  }
+
 
 @font-face {
   font-family: "Aptos-Light";
@@ -17,8 +18,8 @@
 /* Editable color variables */
 :root {
     --header-bg: rgb(54, 48, 34);
-    --header-text: rgb(176, 172, 117);
-    --body-bg:rgba(246, 237, 210, 0.9);
+    --header-text: rgb(231, 252, 203);
+    --body-bg:rgb(224, 240, 200);
   }
 
   html {
@@ -107,7 +108,7 @@
   }
   
   .sidebar img {
-    width: 100%;
+    width: 125%;
     height: auto;
     border-radius: 8px;
   }

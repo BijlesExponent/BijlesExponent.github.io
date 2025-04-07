@@ -10,9 +10,9 @@ title = 'Bijlesbureau Exponent'
   weight = 1
 
   [[menu.main]]
-  identifier = "diensten"
-  name = "Diensten"
-  url = "#diensten"
+  identifier = "aanbod"
+  name = "Aanbod"
+  url = "#aanbod"
   weight = 2
 
     [[menu.main]]
