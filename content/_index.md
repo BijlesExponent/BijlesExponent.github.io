@@ -2,16 +2,21 @@
 title = "Home"
 +++
 
-Zoek je persoonlijke en waardevolle ondersteuning voor wiskunde of wetenschappen? Examenstress achter je laten en vol vertrouwen aan de slag? Bij ons krijg je méér dan bijles: we zorgen dat je de leerstof écht begrijpt en helpen je de obstakels te overwinnen die je succes in de weg staan.
+#### Zoek je persoonlijke en waardevolle ondersteuning voor wiskunde of wetenschappen? 
+
+#### Examenstress achter je laten en vol vertrouwen aan de slag? 
+
+Bij ons krijg je méér dan bijles: we zorgen dat je de leerstof écht begrijpt en helpen je de obstakels te overwinnen die je succes in de weg staan.
 
 Wij begeleiden middelbare scholieren, studenten van de examencommissie, universiteits- en hogeschoolstudenten bij wiskunde, fysica, chemie en biologie. Onze aanpak? Op maat, resultaatgericht en flexibel – online of fysiek, hoe het voor jou het beste werkt.
-Wil je met zelfvertrouwen je toetsen en examens tegemoet gaan? Neem contact op en plan je eerste sessie vandaag nog!
 
-Waarom voor ons kiezen? ✔ Persoonlijke begeleiding op maat ✔ Vakinhoudelijke ondersteuning én studiecoaching ✔ Flexibele leslocatie en lesduur ✔ Snelle en eenvoudige boeking
+Wil je met zelfvertrouwen je toetsen en examens tegemoet gaan? Neem contact met ons op en plan je eerste sessie vandaag nog!
 
 <div class="main-image-wrapper">
   <img src="/images/bijles.jpg" alt="Header image" class="main-image">
 </div>
+
+Waarom voor ons kiezen? ✔ Persoonlijke begeleiding op maat ✔ Vakinhoudelijke ondersteuning én studiecoaching ✔ Flexibele leslocatie en lesduur ✔ Snelle en eenvoudige boeking
 
 ## Over Ons
 
@@ -48,28 +53,21 @@ We helpen je met een gerichte voorbereiding voor de wetenschapsvakken op de exam
 
 ## Werkwijze
 
-Onze bijlessen zijn flexibel en worden aangepast aan jouw noden. Zo werken we:
+Onze bijlessen zijn flexibel en worden aangepast aan jouw noden. 
 
-✔️ Locatie naar keuze – bij jou thuis, bij ons of online via videoplatformen zoals Zoom of Google Meet.
+Zo werken we:
 
-✔️ Flexibele lesduur – standaard wordt 2 uur per sessie voorzien, maar dit kan variëren van 1u30 tot 3u, afhankelijk van jouw behoeften.
+locatie naar keuze –-- bij jou thuis (regio: Kortenberg, Herent, Bertem, Zaventem, Kraainem, Tervuren, Woluwe, Brussel  ---  Leuven, Linden, Lubbeek, ...), bij ons (regio: Kortenberg of Linden) of online via videoplatformen zoals Zoom of Google Meet.
 
-✔️ Voorbereiding is essentieel – om de sessie zo efficiënt mogelijk te laten verlopen, vragen we om minstens 24 uur op voorhand de leerstof en eventuele oefeningen door te sturen. Zo kunnen we de bijles volledig afstemmen op jouw specifieke noden.
+flexibele lesduur –-- standaard voorzien we 2 uur per sessie, maar dit kunnen we aanpassen, afhankelijk van jouw behoeften.
 
-✔️ Interactieve begeleiding – we werken niet met standaard uitleg, maar passen onze aanpak aan jouw leerstijl aan. We maken moeilijke theorie toegankelijk met praktische voorbeelden en laten jou zelf actief oefenen.
-Wil je ontdekken of onze aanpak bij jou past? Neem contact op en boek een eerste sessie!
+voorbereiding is essentieel –-- om de sessie zo efficiënt mogelijk te laten verlopen, vragen we om minstens 24 uur op voorhand de leerstof en eventuele oefeningen of vragen door te sturen. Zo kunnen we de bijles volledig afstemmen op jouw specifieke noden.
+
+Klaar om te starten? Bekijk de agenda hieronder en kies een moment dat jou goed uitkomt voor een eerste sessie. Laat het ons weten via het contactformulier.
 
 ## Tarieven
 
-"Kwalitatieve bijles tegen een eerlijke prijs. Onze tarieven variëren afhankelijk van de duur en vorm van de les. Bekijk onze prijzen en ontdek onze voordelige pakketten voor regelmatige begeleiding."
-
-test
-
-tes
-
-tes
-
-tes
+Kwalitatieve bijles tegen een eerlijke prijs. Onze tarieven variëren afhankelijk van de duur en vorm van de les. Bekijk onze prijzen en ontdek onze voordelige pakketten voor regelmatige begeleiding.
 
 ## Kalender
 
@@ -96,7 +94,7 @@ Heb je vragen of wil je een eerste sessie boeken? Neem contact met ons op via he
   <input type="text" name="name" required>
   <label for="email">Email:</label>
   <input type="email" name="email" required>
-  <label for="message">Bericht:</label>
+  <label for="message">Bericht: (vergeet zeker jouw locatie naar keuze niet mee te geven)</label>
   <textarea name="message" rows="5" required></textarea>
   <div class="captcha-wrapper">
     <div class="h-captcha" data-captcha="true"></div>
