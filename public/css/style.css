@@ -22,12 +22,9 @@
     --body-bg:rgb(224, 240, 200);
   }
 
-  html {
+  html, body{
     scroll-behavior: smooth;
-  }
-
-  /* Reset and base */
-  body {
+    min-height: 100%;
     margin: 0;
     font-family: "Aptos";
     font-size: 20px;
@@ -95,16 +92,30 @@
   .content {
     flex: 1;
     min-width: 0;
+    text-align: justify;
+  }
+
+  .content ul {
+    list-style: none;           /* ❌ hide default bullets */
+    padding-left: 0;            /* remove left indent */
+    margin: 0;
   }
   
+  .content ul li {
+    margin: 0.2rem 0;           /* tighter vertical spacing */
+  }
+  
+  
   .sidebar {
+    display: block;
     width: 250px;
     flex-shrink: 0; /* Prevent sidebar from shrinking */
-    position: relative; /* or fixed/absolute if needed */
+    position: sticky; /* or fixed/absolute if needed */
     box-sizing: border-box;
-    margin-left: 2rem; /* ✅ Add spacing between content and sidebar if needed */
+    margin-left: 2rem; /* Add spacing between content and sidebar if needed */
     margin-right: 5rem;
-    top: 80px;
+    top: 140px; /* Adjust this value to your header height */
+    height: fit-content;
   }
   
   .sidebar img {
@@ -232,6 +243,10 @@
 }
 
 @media (max-width: 1200px) {
+  
+  body {
+    font-size: 18px;
+  }
 
   /* header */
   .sticky-header {

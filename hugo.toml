@@ -2,6 +2,8 @@ baseURL = 'https://example.org/'
 languageCode = 'nl-be'
 title = 'Bijlesbureau Exponent'
 
+disableKinds = ["taxonomy"]
+
 [menu]
   [[menu.main]]
   identifier = "overons"

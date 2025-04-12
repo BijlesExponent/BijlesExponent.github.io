@@ -2,13 +2,13 @@
 title = "Home"
 +++
 
-#### Zoek je persoonlijke en waardevolle ondersteuning voor wiskunde of wetenschappen? 
+#### Zoek je persoonlijke en waardevolle ondersteuning voor wiskunde of wetenschappen?
 
-#### Examenstress achter je laten en vol vertrouwen aan de slag? 
+#### Examenstress achter je laten en vol vertrouwen aan de slag?
 
 Bij ons krijg je méér dan bijles: we zorgen dat je de leerstof écht begrijpt en helpen je de obstakels te overwinnen die je succes in de weg staan.
 
-Wij begeleiden middelbare scholieren, studenten van de examencommissie, universiteits- en hogeschoolstudenten bij wiskunde, fysica, chemie en biologie. Onze aanpak? Op maat, resultaatgericht en flexibel – online of fysiek, hoe het voor jou het beste werkt.
+Wij begeleiden middelbare scholieren, studenten van de examencommissie, universiteits- en hogeschoolstudenten bij wiskunde, fysica, chemie, biologie en informatica. Onze aanpak? Op maat, resultaatgericht en flexibel – online of fysiek, hoe het voor jou het beste werkt.
 
 Wil je met zelfvertrouwen je toetsen en examens tegemoet gaan? Neem contact met ons op en plan je eerste sessie vandaag nog!
 
@@ -16,24 +16,32 @@ Wil je met zelfvertrouwen je toetsen en examens tegemoet gaan? Neem contact met 
   <img src="/images/bijles.jpg" alt="Header image" class="main-image">
 </div>
 
-Waarom voor ons kiezen? ✔ Persoonlijke begeleiding op maat ✔ Vakinhoudelijke ondersteuning én studiecoaching ✔ Flexibele leslocatie en lesduur ✔ Snelle en eenvoudige boeking
+Waarom voor ons kiezen?
+
+- ✔ Persoonlijke begeleiding op maat
+- ✔ Vakinhoudelijke ondersteuning én studiecoaching
+- ✔ Flexibele leslocatie en lesduur
+- ✔ Snelle en eenvoudige boeking
 
 ## Over Ons
 
 Wij zijn twee gepassioneerde bijlesgevers met een diploma in de ingenieurswetenschappen - en ja, wij weten als geen ander hoe pittig die exacte vakken kunnen zijn. Daarom maken wij ze begrijpelijk, behapbaar en (geloof het of niet) soms zelfs leuk!
 
-Geen standaardformule bij ons. We kijken samen waar jij vastloopt, hoe je slimmer kunt studeren en zorgen ervoor dat je zelfs de meest lastige concepten onder de knie krijgt. Persoonlijk, geduldig en resultaatgericht - zo doen wij dat. 
+Geen standaardformule bij ons. We kijken samen waar jij vastloopt, hoe je slimmer kunt studeren en zorgen ervoor dat je zelfs de meest lastige concepten onder de knie krijgt. Persoonlijk, geduldig en resultaatgericht - zo doen wij dat.
+
 Even voorstellen:
 
 <div class="main-image-wrapper">
-  <img src="/images/hmm_IMG_7269.jpg" alt="Header image" class="main-image">
+  <img src="/images/hmm_IMG_7269.JPG" alt="Header image" class="main-image">
 </div>
 
 ## Aanbod
 
+###
+
 #### Individuele bijles voor middelbare scholieren
 
-Onze bijlessen in wiskunde, chemie, fysica en biologie zijn speciaal ontwikkeld om jou te helpen uitblinken op school. Of je nu complexe formules wilt doorgronden, chemische reacties wilt begrijpen, natuurkundige principes wilt toepassen of de wonderen van het leven wilt bestuderen, bij ons kun je altijd terecht. Wij leggen het je helder uit, stap voor stap, net zo lang tot je het echt begrijpt.
+Onze bijlessen in wiskunde, chemie, fysica, biologie en informatica zijn speciaal ontwikkeld om jou te helpen uitblinken op school. Of je nu complexe formules wilt doorgronden, chemische reacties wilt begrijpen, natuurkundige principes wilt toepassen of de wonderen van het leven wilt bestuderen, bij ons kun je altijd terecht. Wij leggen het je helder uit, stap voor stap, net zo lang tot je het echt begrijpt.
 
 Wij zijn experts in de leerstof, maar geloven dat échte vooruitgang begint bij jezelf. Daarom houden we rekening met jouw unieke manier van leren en passen we onze begeleiding daarop aan. Zo krijg je niet alleen inhoudelijke steun, maar ook de aanpak die bij jou past!
 
@@ -41,7 +49,7 @@ Wij zijn experts in de leerstof, maar geloven dat échte vooruitgang begint bij 
 
 Heb je extra ondersteuning nodig bij wiskunde, fysica of chemie in jouw opleiding? Wij helpen je om complexe leerstof grondig te begrijpen en efficiënt toe te passen. Onze begeleiding richt zich op studenten uit richtingen zoals farmaceutische wetenschappen, (toegepaste) economische wetenschappen, wetenschappen, logopedische en audiologische wetenschappen, bewegings- en revalidatiewetenschappen, (bio-)ingenieurswetenschappen en meer.
 
-Met ervaring in vakken zoals Calculus, Lineaire algebra, Analyse, Wiskunde voor economen, Organische en Anorganische chemie, Natuurkunde, Biomechanica en Celbiologie bieden we gerichte ondersteuning op maat.
+Met ervaring in vakken zoals Calculus, Lineaire algebra, Analyse, Wiskunde voor economen, Organische en Anorganische chemie, Natuurkunde, Mechanica, Biomechanica en Celbiologie bieden we gerichte ondersteuning op maat.
 
 Naast inhoudelijke begeleiding helpen we je met planning, time-management en structuur, zodat je met vertrouwen je examens tegemoet gaat. We zorgen voor tussentijdse opvolging en laten je niet los. Bovendien beschikken we over heel wat extra studiemateriaal om je optimaal voor te bereiden.
 
@@ -53,13 +61,17 @@ We helpen je met een gerichte voorbereiding voor de wetenschapsvakken op de exam
 
 ## Werkwijze
 
-Onze bijlessen zijn flexibel en worden aangepast aan jouw noden. 
+Onze bijlessen zijn flexibel en worden aangepast aan jouw noden.
 
-Zo werken we:
+**locatie naar keuze:**
 
-locatie naar keuze –-- bij jou thuis (regio: Kortenberg, Herent, Bertem, Zaventem, Kraainem, Tervuren, Woluwe, Brussel  ---  Leuven, Linden, Lubbeek, ...), bij ons (regio: Kortenberg of Linden) of online via videoplatformen zoals Zoom of Google Meet.
+- --- Bij jou thuis (regio: Kortenberg, Herent, Bertem, Zaventem, Kraainem, Tervuren, Woluwe, Brussel, Leuven, Linden, Lubbeek, ...)
+- --- Bij ons (regio: Kortenberg of Linden)
+- --- Online via videoplatformen zoals Zoom of Google Meet.
 
-flexibele lesduur –-- standaard voorzien we 2 uur per sessie, maar dit kunnen we aanpassen, afhankelijk van jouw behoeften.
+**flexibele lesduur:**
+
+- --- Standaard voorzien we 2 uur per sessie, maar dit kunnen we aanpassen, afhankelijk van jouw behoeften.
 
 voorbereiding is essentieel –-- om de sessie zo efficiënt mogelijk te laten verlopen, vragen we om minstens 24 uur op voorhand de leerstof en eventuele oefeningen of vragen door te sturen. Zo kunnen we de bijles volledig afstemmen op jouw specifieke noden.
 

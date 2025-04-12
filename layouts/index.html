@@ -6,7 +6,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ .Site.Title }}</title>
-  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/style.css?v=1.0" />
 </head>
 
 
@@ -25,14 +25,13 @@
     }
 
     // Close on link click
-    if (window.innerWidth <= 1200) {
-      document.querySelectorAll(".nav-links a").forEach(link => {
-        link.addEventListener("click", () => {
-          const navLinks = document.getElementById("nav-links");
+    document.querySelectorAll(".nav-links a").forEach(link => {
+      link.addEventListener("click", () => {
+        if (window.innerWidth <= 1200) {
           navLinks.classList.remove("open");
-        });
+        }
       });
-    }
+    });
 
 
 
@@ -119,7 +118,7 @@
       {{ .Content }}
     </main>
     <aside class="sidebar">
-      <img src="/images/IMG_7262.jpg" alt="Sidebar Image" />
+      <img src="/images/IMG_7262.JPG" alt="Sidebar Image" />
       <p>Wij zijn... </p>
       <p>Telefoonnummers ...</p>
       <p>E-mail ...</p>
