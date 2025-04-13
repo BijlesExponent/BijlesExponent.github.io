@@ -87,7 +87,7 @@ Bekijk onderstaande kalender om te zien welke tijdssloten zouden passen.
 
 <div class="calendar-wrapper">
   <iframe
-    src="https://calendar.google.com/calendar/embed?src=bijles.exponent%40gmail.com&ctz=Europe%2FBrussels&mode=WEEK&wkst=2"
+    src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FBrussels&showPrint=0&showCalendars=0&mode=WEEK&hl=nl&title&showTitle=0&src=YmlqbGVzLmV4cG9uZW50QGdtYWlsLmNvbQ&color=%23039BE5"
     style="border: 0"
     width="100%"
     height="600"
@@ -98,7 +98,7 @@ Bekijk onderstaande kalender om te zien welke tijdssloten zouden passen.
 
 ## Contact
 
-Heb je vragen of wil je een eerste sessie boeken? Neem contact met ons op via het formulier, e-mail of telefoon. Wij reageren snel en helpen je graag verder!
+Heb je vragen of wil je een eerste sessie boeken? Neem contact met ons op via het formulier, of stuur een mailtje naar {{< cloakemail "bijles.exponent@gmail.com" >}}. Wij reageren snel en helpen je graag verder!
 
 <form action="https://api.web3forms.com/submit" method="POST" id="form" class="contact-form">
   <input type="hidden" name="access_key" value="e49caaca-5fa5-4088-86ed-99342817daa0">

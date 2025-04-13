@@ -4,6 +4,9 @@ title = 'Bijlesbureau Exponent'
 
 disableKinds = ["taxonomy"]
 
+theme = ["hugo-cloak-email"]
+enableInlineShortcodes = true
+
 [menu]
   [[menu.main]]
   identifier = "overons"

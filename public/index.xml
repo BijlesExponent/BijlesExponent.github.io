@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>nl-be</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sidebar</title>
+      <link>http://localhost:1313/sidebar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sidebar/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/IMG_7262.JPG&#34; alt=&#34;Sidebar Image&#34; /&gt;&#xA;&lt;p&gt;Wij zijn Quinten en Miguel, twee gepassioneerde bijlesgevers met een diploma in de ingenieurswetenschappen.&lt;/p&gt;&#xA;&lt;p&gt;Wij geven bijles in wiskunde, fysica, chemie, biologie en informatica aan leerlingen van het secundair onderwijs.&#xA;En voor specifieke vakken kunnen we ook studenten in het hoger onderwijs verder helpen.&lt;/p&gt;&#xA;&lt;p&gt;Geïnteresseerd? Neem contact op met ons via het formulier onderaan deze pagina of stuur een mailtje naar &#xA;&lt;style&gt;&#xA;  #span-da21eda5.cloaked-e-mail:before {&#xA;    content:attr(data-domain) &#34;\0040&#34; attr(data-user);&#xA;    unicode-bidi:bidi-override;&#xA;    direction:rtl;&#xA;  }&#xA;&lt;/style&gt;&#xA;&amp;#32;&lt;span class=&#34;cloaked-e-mail&#34; data-user=&#34;tnenopxe.seljib&#34; data-domain=&#34;moc.liamg&#34; id=&#34;span-da21eda5&#34;&gt;&lt;/span&gt;&amp;#32;&#xA;&#xA;&lt;script id=&#34;script-da21eda5&#34;&gt;&#xA;  var scriptTag = document.getElementById(&#34;script-da21eda5&#34;);&#xA;  var link = document.createElement(&#34;a&#34;);&#xA;  var address = &#34;tnenopxe.seljib&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;) + &#34;@&#34; + &#34;moc.liamg&#34;.split(&#39;&#39;).reverse().join(&#39;&#39;);&#xA;  link.href = &#34;mailto&#34; + &#34;:&#34; + address;&#xA;  link.innerText = address.split(&#39;?&#39;)[0];&#xA;  scriptTag.parentElement.insertBefore(link, scriptTag.previousElementSibling);&#xA;  scriptTag.parentElement.removeChild(scriptTag.previousElementSibling)&#xA;&lt;/script&gt;&#xA;&#xA;!&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

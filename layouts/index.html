@@ -118,11 +118,9 @@
       {{ .Content }}
     </main>
     <aside class="sidebar">
-      <img src="/images/IMG_7262.JPG" alt="Sidebar Image" />
-      <p>Wij zijn... </p>
-      <p>Telefoonnummers ...</p>
-      <p>E-mail ...</p>
-      <p>Leuven/Brussel</p>
+      {{ with site.GetPage "sidebar" }}
+        {{ .Content }}
+      {{ end }}
     </aside>
   </div>
 
