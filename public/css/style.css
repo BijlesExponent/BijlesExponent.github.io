@@ -325,7 +325,7 @@
     flex-direction: column;
     width: 100%;
     position: absolute;
-    top: 100%;
+    top: 70%;
     background-color: var(--header-bg);
     box-sizing: border-box;
     padding: 1rem;
@@ -340,7 +340,7 @@
   .nav-links a {
     margin: 0.5rem 0;
     color: var(--header-text);
-    padding-right: 3rem;
+    padding-right: 0.5rem;
   }
 
   .main-container {
