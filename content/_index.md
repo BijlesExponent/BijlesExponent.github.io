@@ -2,18 +2,22 @@
 title = "Home"
 +++
 
+<div class="main-image-wrapper">
+  <img src="/images/logo_3.png" alt="Header image" class="main-image">
+</div>
+
 #### Zoek je persoonlijke en waardevolle ondersteuning voor wiskunde of wetenschappen?
 
 #### Examenstress achter je laten en vol vertrouwen aan de slag?
 
 Bij ons krijg je méér dan bijles: we zorgen dat je de leerstof écht begrijpt en helpen je de obstakels te overwinnen die je succes in de weg staan.
 
-Wij begeleiden middelbare scholieren, studenten van de examencommissie, universiteits- en hogeschoolstudenten bij wiskunde, fysica, chemie, biologie en informatica. Onze aanpak? Op maat, resultaatgericht en flexibel – online of fysiek, hoe het voor jou het beste werkt.
+Wij begeleiden middelbare scholieren, studenten van de examen- commissie, universiteits- en hogeschoolstudenten bij wiskunde, fysica, chemie, biologie en informatica. Onze aanpak? Op maat, resultaatgericht en flexibel – online of fysiek, hoe het voor jou het beste werkt.
 
 Wil je met zelfvertrouwen je toetsen en examens tegemoet gaan? Neem contact met ons op en plan je eerste sessie vandaag nog!
 
 <div class="main-image-wrapper">
-  <img src="/images/bijles.jpg" alt="Header image" class="main-image">
+  <img src="/images/bijles.png" alt="Header image" class="main-image">
 </div>
 
 Waarom voor ons kiezen?
@@ -28,8 +32,6 @@ Waarom voor ons kiezen?
 Wij zijn twee gepassioneerde bijlesgevers met een diploma in de ingenieurswetenschappen - en ja, wij weten als geen ander hoe pittig die exacte vakken kunnen zijn. Daarom maken wij ze begrijpelijk, behapbaar en (geloof het of niet) soms zelfs leuk!
 
 Geen standaardformule bij ons. We kijken samen waar jij vastloopt, hoe je slimmer kunt studeren en zorgen ervoor dat je zelfs de meest lastige concepten onder de knie krijgt. Persoonlijk, geduldig en resultaatgericht - zo doen wij dat.
-
-Even voorstellen:
 
 <div class="main-image-wrapper">
   <img src="/images/hmm_IMG_7269.JPG" alt="Header image" class="main-image">
@@ -47,9 +49,9 @@ Wij zijn experts in de leerstof, maar geloven dat échte vooruitgang begint bij 
 
 #### Examenvoorbereiding voor hoger onderwijs
 
-Heb je extra ondersteuning nodig bij wiskunde, fysica of chemie in jouw opleiding? Wij helpen je om complexe leerstof grondig te begrijpen en efficiënt toe te passen. Onze begeleiding richt zich op studenten uit richtingen zoals farmaceutische wetenschappen, (toegepaste) economische wetenschappen, wetenschappen, logopedische en audiologische wetenschappen, bewegings- en revalidatiewetenschappen, (bio-)ingenieurswetenschappen en meer.
+Heb je extra ondersteuning nodig bij wiskunde, fysica of chemie in jouw opleiding? Wij helpen je om complexe leerstof grondig te begrijpen en efficiënt toe te passen. Onze begeleiding richt zich op studenten uit richtingen zoals farmaceutische wetenschappen, toegepaste economische wetenschappen, wetenschappen, logopedische en audiologische weten- schappen, bewegings- en revalidatiewetenschappen, (bio-)ingenieurs- wetenschappen en meer.
 
-Met ervaring in vakken zoals Calculus, Lineaire algebra, Analyse, Wiskunde voor economen, Organische en Anorganische chemie, Natuurkunde, Mechanica, Biomechanica en Celbiologie bieden we gerichte ondersteuning op maat.
+Met ervaring in vakken zoals Calculus, Lineaire algebra, Analyse, Wiskunde voor economen, Organische en Anorganische chemie, Natuurkunde, Mechanica, Biomechanica en Celbiologie bieden we gerichte onder- steuning op maat.
 
 Naast inhoudelijke begeleiding helpen we je met planning, time-management en structuur, zodat je met vertrouwen je examens tegemoet gaat. We zorgen voor tussentijdse opvolging en laten je niet los. Bovendien beschikken we over heel wat extra studiemateriaal om je optimaal voor te bereiden.
 
@@ -73,17 +75,18 @@ Onze bijlessen zijn flexibel en worden aangepast aan jouw noden.
 
 - --- Standaard voorzien we 2 uur per sessie, maar dit kunnen we aanpassen, afhankelijk van jouw behoeften.
 
-voorbereiding is essentieel –-- om de sessie zo efficiënt mogelijk te laten verlopen, vragen we om minstens 24 uur op voorhand de leerstof en eventuele oefeningen of vragen door te sturen. Zo kunnen we de bijles volledig afstemmen op jouw specifieke noden.
+**voorbereiding is essentieel:** 
+- –-- Om de sessie zo efficiënt mogelijk te laten verlopen, vragen we om minstens 24 uur op voorhand de leerstof en eventuele oefeningen of vragen door te sturen. Zo kunnen we de bijles volledig afstemmen op jouw specifieke noden.
 
 Klaar om te starten? Bekijk de agenda hieronder en kies een moment dat jou goed uitkomt voor een eerste sessie. Laat het ons weten via het contactformulier.
 
 ## Tarieven
 
-Kwalitatieve bijles tegen een eerlijke prijs. Onze tarieven variëren afhankelijk van de duur en vorm van de les. Bekijk onze prijzen en ontdek onze voordelige pakketten voor regelmatige begeleiding.
+Goede bijles hoeft helemaal niet duur te zijn! Wij werken met een tarief van €45 per uur, en de eerste sessie krijg je voor de helft van de prijs. Zo kun je rustig kennismaken, zonder meteen een grote investering te hoeven doen. Daarnaast bieden we aantrekkelijke formules voor wie regelmatig begeleiding zoekt. Benieuwd? Neem gerust een kijkje in de kalender hieronder en plan je eerste sessie in!
 
 ## Kalender
 
-Bekijk onderstaande kalender om te zien welke tijdssloten zouden passen.
+Bekijk de kalender hieronder en plan eenvoudig een moment dat jou uitkomt.
 
 <div class="calendar-wrapper">
   <iframe
