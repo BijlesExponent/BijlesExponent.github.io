@@ -3,7 +3,7 @@ title = "Home"
 +++
 
 <div class="main-image-wrapper-crop">
-  <img src="/images/logo_3.png" alt="Header image" class="main-image-logo">
+  <img src="/images/logo_4.png" alt="Header image" class="main-image-logo">
 </div>
 
 #### Zoek je persoonlijke en waardevolle ondersteuning voor wiskunde of wetenschappen?
@@ -41,6 +41,18 @@ Geen standaardformule bij ons. We kijken samen waar jij vastloopt, hoe je slimme
 
 ###
 
+<div class="main-image-wrapper-crop">
+  <img src="/images/aanbod_middel.png" alt="Header image" class="main-image-logo">
+</div>
+
+<div class="main-image-wrapper-crop">
+  <img src="/images/aanbod_unief.png" alt="Header image" class="main-image-logo">
+</div>
+
+<div class="main-image-wrapper-crop">
+  <img src="/images/aanbod_excom.png" alt="Header image" class="main-image-logo">
+</div>
+
 #### Individuele bijles voor middelbare scholieren
 
 Onze bijlessen in wiskunde, chemie, fysica, biologie en informatica zijn speciaal ontwikkeld om jou te helpen uitblinken op school. Of je nu complexe formules wilt doorgronden, chemische reacties wilt begrijpen, natuurkundige principes wilt toepassen of de wonderen van het leven wilt bestuderen, bij ons kun je altijd terecht. Wij leggen het je helder uit, stap voor stap, net zo lang tot je het echt begrijpt.
@@ -65,6 +77,8 @@ We helpen je met een gerichte voorbereiding voor de wetenschapsvakken op de exam
 
 Onze bijlessen zijn flexibel en worden aangepast aan jouw noden.
 
+### Wat wij bieden
+
 **locatie naar keuze:**
 
 - --- Bij jou thuis (regio: Kortenberg, Herent, Bertem, Zaventem, Kraainem, Tervuren, Woluwe, Brussel, Leuven, Linden, Lubbeek, ...)
@@ -75,6 +89,8 @@ Onze bijlessen zijn flexibel en worden aangepast aan jouw noden.
 
 - --- Standaard voorzien we 2 uur per sessie, maar dit kunnen we aanpassen, afhankelijk van jouw behoeften.
 
+### Wat wij verwachten
+
 **voorbereiding is essentieel:** 
 - –-- Om de sessie zo efficiënt mogelijk te laten verlopen, vragen we om minstens 24 uur op voorhand de leerstof en eventuele oefeningen of vragen door te sturen. Zo kunnen we de bijles volledig afstemmen op jouw specifieke noden.
 
@@ -82,7 +98,10 @@ Klaar om te starten? Bekijk de agenda hieronder en kies een moment dat jou goed 
 
 ## Tarieven
 
-Goede bijles hoeft helemaal niet duur te zijn! Wij werken met een tarief van €45 per uur, en de eerste sessie krijg je voor de helft van de prijs. Zo kun je rustig kennismaken, zonder meteen een grote investering te hoeven doen. Daarnaast bieden we aantrekkelijke formules voor wie regelmatig begeleiding zoekt. Benieuwd? Neem gerust een kijkje in de kalender hieronder en plan je eerste sessie in!
+Goede bijles aan eerlijke prijzen. Wij werken met een tarief van €45 per uur, en de eerste sessie krijg je voor de helft van de prijs. Zo kun je rustig kennismaken, zonder meteen een grote investering te doen. 
+Ben je tevreden? Dan kan het nog net iets voordeliger. Vanaf 3 sessies werken we met een uurtarief van €40. 
+
+Benieuwd? Neem gerust een kijkje in de kalender hieronder en plan je eerste sessie in!
 
 ## Kalender
 
