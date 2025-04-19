@@ -51,7 +51,7 @@
     align-items: center;
     background-color: var(--header-bg);
     color: var(--header-text);
-    padding: 1rem 2rem;
+    /* padding: 1rem 2rem; */
     z-index: 1000;
     width: 100%;
     box-sizing: border-box;
@@ -67,6 +67,23 @@
     font-weight: bold;
     color: var(--header-text);
     margin-left: 3rem;
+  }
+
+  .sticky-header .logo-crop {
+    width: 150px;               /* visible width */
+    height: 60px;              /* visible height */
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+    position: relative;
+  }
+
+  .sticky-header .logo-img {
+    position: absolute;
+    top: -50px;                /* move image up by 10px */
+    width: 150px;               /* size of original image */
+    height: auto;
   }
   
   .nav-links a {
@@ -100,13 +117,22 @@
   }
 
   .content ul {
-    list-style: none;           /* ❌ hide default bullets */
+    list-style: none;           /* hide default bullets */
     padding-left: 0;            /* remove left indent */
     margin: 0;
   }
   
   .content ul li {
     margin: 0.2rem 0;           /* tighter vertical spacing */
+  }
+
+  .content h4 {
+    margin-bottom: 0;
+    padding: 0;
+    line-height: 1.3; /* optional, to control tightness */
+  }
+  .content h4 + h4 {
+    margin-top: 0;
   }
   
   
@@ -141,10 +167,25 @@
   }
   
   .main-image {
-    width: 500px;         /* or whatever size you want */
+    width: 500px;
     max-width: 100%;
-    height: auto;         /* keeps aspect ratio */
-    border-radius: 15px;  /* optional rounding */
+    height: auto;
+  }
+
+  .main-image-wrapper-crop {
+    width: 500px;
+    height: 275px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5rem;
+    position: relative;
+  }
+
+  .main-image-logo {
+    position: absolute;
+    top: -100px;
+    width: 500px;
+    height: auto;
   }
 
 
@@ -259,6 +300,7 @@
 
   .sidebar {
     margin-right: 3rem;
+    top: 120px;
   }
 }
 
@@ -272,7 +314,7 @@
     width: 400px;
     margin-left: 2rem;
     margin-right: 4rem;
-    top: 140px;
+    top: 100px;
   }
 }
 
@@ -286,7 +328,17 @@
     width: 350px;
     margin-left: 1rem;
     margin-right: 3rem;
-    top: 140px;
+  }
+
+  .main-image-wrapper-crop {
+    width: 400px;
+    height: 225px;
+    margin-left: 5rem;
+  }
+
+  .main-image-logo {
+    top: -100px;
+    width: 450px;
   }
 }
 
@@ -303,7 +355,6 @@
   .sticky-header {
     position: sticky;
     flex-direction: column;
-    padding: 0.5rem 1rem;
   }
 
   .header-top {
@@ -317,6 +368,7 @@
   .nav-toggle {
     display: block;
     font-size: 1.2rem;
+    margin-right: 1.4rem;
   }
 
   /* Hide nav links by default */
@@ -325,10 +377,10 @@
     flex-direction: column;
     width: 100%;
     position: absolute;
-    top: 70%;
+    top: 100%;
     background-color: var(--header-bg);
     box-sizing: border-box;
-    padding: 1rem;
+    padding-right: 1rem;
   }
 
   /* Show nav links when menu is open */
@@ -351,8 +403,19 @@
     width: 350px;
     margin-left: 1rem; /* Add spacing between content and sidebar if needed */
     margin-right: 2rem;
-    top: 140px; /* Adjust this value to your header height */
+    top: 100px; /* Adjust this value to your header height */
     font-size: 16px;
+  }
+
+  .main-image-wrapper-crop {
+    width: 350px;
+    height: 200px;
+    margin-left: 5rem;
+  }
+
+  .main-image-logo {
+    top: -100px;
+    width: 400px;
   }
 }
 
@@ -386,6 +449,18 @@
     max-width: 100%;
     box-sizing: border-box;
   }
+
+  .main-image-wrapper-crop {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 150px;
+  }
+
+  .main-image-logo {
+    top: -100px;
+    width: 350px;
+  }
 }
 
 
@@ -416,6 +491,15 @@
     color: var(--header-text);
     margin-left: 2rem;
   }
+
+  .main-image-wrapper-crop {
+    width: 350px;
+    height: 120px;
+  }
+  .main-image-logo {
+    top: -100px;
+    width: 300px;
+  }
 }
 
 
@@ -433,5 +517,27 @@
     font-weight: bold;
     color: var(--header-text);
     margin-left: 1rem;
+  }
+
+  .main-image-wrapper-crop {
+    width: 350px;
+    height: 120px;
+  }
+  .main-image-logo {
+    top: -100px;
+    width: 300px;
+  }
+}
+
+
+@media (max-width: 400px) {
+
+  .main-image-wrapper-crop {
+    width: 250px;
+    height: 80px;
+  }
+  .main-image-logo {
+    top: -100px;
+    width: 250px;
   }
 }

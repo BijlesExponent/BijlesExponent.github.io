@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/minilogo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/minilogo.png">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ .Site.Title }}</title>
@@ -103,7 +103,13 @@
 <body>
   <header class="sticky-header">
     <div class="header-top">
-      <div class="logo"><a href="/">Exponent</a></div>
+      <div class="logo">
+        <a href="/">
+          <div class="logo-crop">
+            <img src="/images/logo_3.png" alt="Logo" class="logo-img" />
+          </div>
+        </a>
+      </div>
       <button class="nav-toggle" id="nav-toggle">☰ Menu</button>
     </div>
     <nav class="nav-links" id="nav-links">
