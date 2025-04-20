@@ -1,5 +1,8 @@
 +++
 title = "Sidebar"
+url = ""
+layout = ""
+build  = { list = false, render = false }
 +++
 
 <img src="/images/IMG_7262.JPG" alt="Sidebar Image" />

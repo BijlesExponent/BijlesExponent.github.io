@@ -130,6 +130,7 @@
     margin-bottom: 0;
     padding: 0;
     line-height: 1.3; /* optional, to control tightness */
+    text-align: left;
   }
   .content h4 + h4 {
     margin-top: 0;
@@ -170,6 +171,7 @@
     width: 500px;
     max-width: 100%;
     height: auto;
+    border-radius: 20px;
   }
 
   .main-image-wrapper-crop {
@@ -186,6 +188,41 @@
     top: -100px;
     width: 500px;
     height: auto;
+  }
+
+
+
+  /* Aanbod images */
+  .image-row {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .image-row-wrapper img{
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+  }
+  
+  .image-row-wrapper img:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  
+  .submenu-content {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    background:rgb(247, 244, 214);
+    border-radius: 10px;
+    display: none;
+  }
+  
+  .submenu-content.active {
+    display: block;
   }
 
 
@@ -319,6 +356,16 @@
 }
 
 
+@media (max-width: 1450px) {
+  .image-row {
+    gap: 1rem;
+  }
+  
+  .image-row-wrapper img {
+    width: 180px;
+  }
+}
+
 @media (max-width: 1400px) {
   .main-container {
     padding: 2rem 2rem 2rem 6rem; /* top, right, bottom, left */
@@ -417,6 +464,15 @@
     top: -100px;
     width: 400px;
   }
+
+
+  .image-row {
+    gap: 0.7rem;
+  }
+  
+  .image-row-wrapper img {
+    width: 150px;
+  }
 }
 
 
@@ -461,6 +517,14 @@
     top: -100px;
     width: 350px;
   }
+
+  .image-row {
+    gap: 2rem;
+  }
+  
+  .image-row-wrapper img {
+    width: 200px;
+  }
 }
 
 
@@ -500,10 +564,26 @@
     top: -100px;
     width: 300px;
   }
+
+  .image-row {
+    gap: 1rem;
+  }
+  
+  .image-row-wrapper img {
+    width: 170px;
+  }
 }
 
 
-
+@media (max-width: 650px) {
+  .image-row {
+    gap: 0.8rem;
+  }
+  
+  .image-row-wrapper img {
+    width: 150px;
+  }
+}
 
 
 
@@ -527,10 +607,36 @@
     top: -100px;
     width: 300px;
   }
+
+  .image-row {
+    gap: 1.5rem;
+  }
+
+  .image-row-wrapper {
+    height: 130px;
+  }
+
+  .image-row-wrapper img {
+    width: 150px;
+    position: relative;
+    top: -20px;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .image-row {
+    gap: 0rem;
+  }
 }
 
 
 @media (max-width: 400px) {
+  .sticky-header .logo a {
+    font-weight: bold;
+    color: var(--header-text);
+    margin-left: 0.3rem;
+  }
 
   .main-image-wrapper-crop {
     width: 250px;
@@ -539,5 +645,19 @@
   .main-image-logo {
     top: -100px;
     width: 250px;
+  }
+
+  .image-row {
+    gap: 0rem;
+  }
+
+  .image-row-wrapper {
+    height: 130px;
+  }
+  
+  .image-row-wrapper img {
+    width: 150px;
+    position: relative;
+    top: -20px;
   }
 }

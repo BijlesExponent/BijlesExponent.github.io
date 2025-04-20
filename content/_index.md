@@ -39,39 +39,7 @@ Geen standaardformule bij ons. We kijken samen waar jij vastloopt, hoe je slimme
 
 ## Aanbod
 
-###
-
-<div class="main-image-wrapper-crop">
-  <img src="/images/aanbod_middel.png" alt="Header image" class="main-image-logo">
-</div>
-
-<div class="main-image-wrapper-crop">
-  <img src="/images/aanbod_unief.png" alt="Header image" class="main-image-logo">
-</div>
-
-<div class="main-image-wrapper-crop">
-  <img src="/images/aanbod_excom.png" alt="Header image" class="main-image-logo">
-</div>
-
-#### Individuele bijles voor middelbare scholieren
-
-Onze bijlessen in wiskunde, chemie, fysica, biologie en informatica zijn speciaal ontwikkeld om jou te helpen uitblinken op school. Of je nu complexe formules wilt doorgronden, chemische reacties wilt begrijpen, natuurkundige principes wilt toepassen of de wonderen van het leven wilt bestuderen, bij ons kun je altijd terecht. Wij leggen het je helder uit, stap voor stap, net zo lang tot je het echt begrijpt.
-
-Wij zijn experts in de leerstof, maar geloven dat échte vooruitgang begint bij jezelf. Daarom houden we rekening met jouw unieke manier van leren en passen we onze begeleiding daarop aan. Zo krijg je niet alleen inhoudelijke steun, maar ook de aanpak die bij jou past!
-
-#### Examenvoorbereiding voor hoger onderwijs
-
-Heb je extra ondersteuning nodig bij wiskunde, fysica of chemie in jouw opleiding? Wij helpen je om complexe leerstof grondig te begrijpen en efficiënt toe te passen. Onze begeleiding richt zich op studenten uit richtingen zoals farmaceutische wetenschappen, toegepaste economische wetenschappen, wetenschappen, logopedische en audiologische weten- schappen, bewegings- en revalidatiewetenschappen, (bio-)ingenieurs- wetenschappen en meer.
-
-Met ervaring in vakken zoals Wiskunde voor economen, Organische en Anorganische chemie, Natuurkunde, Mechanica, Biomechanica en Celbiologie bieden we gerichte onder- steuning op maat.
-
-Naast inhoudelijke begeleiding helpen we je met planning, time-management en structuur, zodat je met vertrouwen je examens tegemoet gaat. We zorgen voor tussentijdse opvolging en laten je niet los. Bovendien beschikken we over heel wat extra studiemateriaal om je optimaal voor te bereiden.
-
-Wil je een efficiënte en gestructureerde aanpak voor je examens? Neem contact op en ontdek hoe we je kunnen helpen!
-
-#### Examenbegeleiding voor examencommissie
-
-We helpen je met een gerichte voorbereiding voor de wetenschapsvakken op de examens van de Vlaamse examencommissie. We nemen de leerstof samen door, op een manier die voor jou werkt, zodat je alles efficiënt en grondig onder de knie krijgt. Met onze persoonlijke begeleiding sta je er niet alleen voor – we begeleiden je stap voor stap naar het behalen van je diploma.
+{{< submenus >}}
 
 ## Werkwijze
 
@@ -91,7 +59,8 @@ Onze bijlessen zijn flexibel en worden aangepast aan jouw noden.
 
 ### Wat wij verwachten
 
-**voorbereiding is essentieel:** 
+**voorbereiding is essentieel:**
+
 - –-- Om de sessie zo efficiënt mogelijk te laten verlopen, vragen we om minstens 24 uur op voorhand de leerstof en eventuele oefeningen of vragen door te sturen. Zo kunnen we de bijles volledig afstemmen op jouw specifieke noden.
 
 Klaar om te starten? Bekijk de agenda hieronder en kies een moment dat jou goed uitkomt voor een eerste sessie. Laat het ons weten via het contactformulier.

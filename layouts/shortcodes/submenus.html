@@ -1,0 +1,46 @@
+<div class="image-row">
+  <div class="image-row-wrapper"><img src="/images/aanbod_middel.png" alt="Image 1" onclick="showContent(1)"></div>
+  <div class="image-row-wrapper"><img src="/images/aanbod_unief.png" alt="Image 2" onclick="showContent(2)"></div>
+  <div class="image-row-wrapper"><img src="/images/aanbod_excom.png" alt="Image 3" onclick="showContent(3)"></div>
+</div>
+  
+<div id="content-1" class="submenu-content">
+  {{ with site.GetPage "submenu_secundair" }}
+    {{ .Content }}
+  {{ end }}
+</div>
+
+<div id="content-2" class="submenu-content">
+  {{ with site.GetPage "submenu_hoger" }}
+    {{ .Content }}
+  {{ end }}
+</div>
+
+<div id="content-3" class="submenu-content">
+  {{ with site.GetPage "submenu_examencommisie" }}
+    {{ .Content }}
+  {{ end }}
+</div>
+
+<script>
+  let currentOpen = null; // track currently open index
+
+  function showContent(index) {
+    const selected = document.getElementById('content-' + index);
+
+    // If the clicked one is already open, close it
+    if (currentOpen === index) {
+      selected.classList.remove('active');
+      currentOpen = null;
+    } else {
+      // Close all
+      document.querySelectorAll('.submenu-content').forEach(div => {
+        div.classList.remove('active');
+      });
+
+      // Open the selected one
+      selected.classList.add('active');
+      currentOpen = index;
+    }
+  }
+</script>
