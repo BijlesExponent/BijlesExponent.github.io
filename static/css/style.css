@@ -628,6 +628,10 @@
   .content {
     text-align: left;
   }
+
+  .submenu-content {
+    max-width: 100%;
+  }
 }
 @media (max-width: 450px) {
   .image-row {

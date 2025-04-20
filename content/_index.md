@@ -67,8 +67,8 @@ Klaar om te starten? Bekijk de agenda hieronder en kies een moment dat jou goed 
 
 ## Tarieven
 
-Goede bijles aan eerlijke prijzen. Wij werken met een tarief van €45 per uur, en de eerste sessie krijg je voor de helft van de prijs. Zo kun je rustig kennismaken, zonder meteen een grote investering te doen. 
-Ben je tevreden? Dan kan het nog net iets voordeliger. Vanaf 3 sessies werken we met een uurtarief van €40. 
+Goede bijles aan eerlijke prijzen. Wij werken met een tarief van €45 per uur, en de eerste sessie krijg je voor de helft van de prijs. Zo kun je rustig kennismaken, zonder meteen een grote investering te doen.
+Ben je tevreden? Dan kan het nog net iets voordeliger. Vanaf 3 sessies werken we met een uurtarief van €40.
 
 Benieuwd? Neem gerust een kijkje in de kalender hieronder en plan je eerste sessie in!
 
