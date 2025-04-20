@@ -624,6 +624,11 @@
 }
 
 
+@media (max-width: 500px) {
+  .content {
+    text-align: left;
+  }
+}
 @media (max-width: 450px) {
   .image-row {
     gap: 0rem;
