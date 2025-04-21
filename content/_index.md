@@ -1,9 +1,9 @@
 +++
-title = "Home"
+title = "Persoonlijke bijles in wiskunde, fysica, chemie en biologie; in Leuven en Brussel"
 +++
 
 <div class="main-image-wrapper-crop">
-  <img src="/images/logo_4.png" alt="Header image" class="main-image-logo">
+  <img src="/images/logo_4.png" alt="Logo Bijles Exponent in Leuven en Brussel voor wiskunde en wetenschappen" class="main-image-logo">
 </div>
 
 #### Zoek je persoonlijke en waardevolle ondersteuning voor wiskunde of wetenschappen?
@@ -17,7 +17,7 @@ Wij begeleiden middelbare scholieren, studenten van de examen- commissie, univer
 Wil je met zelfvertrouwen je toetsen en examens tegemoet gaan? Neem contact met ons op en plan je eerste sessie vandaag nog!
 
 <div class="main-image-wrapper">
-  <img src="/images/bijles.png" alt="Header image" class="main-image">
+  <img src="/images/bijles.png" alt="Bijles met zelfvertrouwen in Leuven en Brussel, Cartoon" class="main-image">
 </div>
 
 Waarom voor ons kiezen?
@@ -33,8 +33,17 @@ Wij zijn twee gepassioneerde bijlesgevers met een diploma in de ingenieurswetens
 
 Geen standaardformule bij ons. We kijken samen waar jij vastloopt, hoe je slimmer kunt studeren en zorgen ervoor dat je zelfs de meest lastige concepten onder de knie krijgt. Persoonlijk, geduldig en resultaatgericht - zo doen wij dat.
 
+Je kan ons vinden op
+<a href="https://www.facebook.com/people/Bijlesbureau-Exponent/61575124484823/?rdid=krWaxdhwk6D7Xnbz&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1ATMcysiAc%2F" target="_blank">
+  <i class="fab fa-facebook fa-lg"></i>
+</a>
+en
+<a href="https://www.instagram.com/bijles_exponent/?igsh=bWc4c3RybnBrZnMz#" target="_blank">
+  <i class="fab fa-instagram fa-lg"></i>
+</a> of contacteer ons via het contactformulier onderaan deze pagina of rechtstreeks via {{< cloakemail "bijles.exponent@gmail.com" >}} !
+
 <div class="main-image-wrapper">
-  <img src="/images/hmm_IMG_7269.JPG" alt="Header image" class="main-image">
+  <img src="/images/hmm_IMG_7269.JPG" alt="Miguel en Quinten van bijles exponent in Leuven en Brussel, voor wiskunde en wetenschappen" class="main-image">
 </div>
 
 ## Aanbod
@@ -76,20 +85,21 @@ Benieuwd? Neem gerust een kijkje in de kalender hieronder en plan je eerste sess
 
 Bekijk de kalender hieronder en plan eenvoudig een moment dat jou uitkomt.
 
-<div class="calendar-wrapper">
-  <iframe
-    src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FBrussels&showPrint=0&showCalendars=0&mode=WEEK&hl=nl&title&showTitle=0&src=YmlqbGVzLmV4cG9uZW50QGdtYWlsLmNvbQ&color=%23039BE5"
-    style="border: 0"
-    width="100%"
-    height="600"
-    frameborder="0"
-    scrolling="no">
-  </iframe>
-</div>
+{{< calendar >}}
 
 ## Contact
 
-Heb je vragen of wil je een eerste sessie boeken? Neem contact met ons op via het formulier, of stuur een mailtje naar {{< cloakemail "bijles.exponent@gmail.com" >}}. Wij reageren snel en helpen je graag verder!
+Heb je vragen of wil je een eerste sessie boeken? Je kan ons vinden op
+<a href="https://www.facebook.com/people/Bijlesbureau-Exponent/61575124484823/?rdid=krWaxdhwk6D7Xnbz&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1ATMcysiAc%2F" target="_blank">
+  <i class="fab fa-facebook fa-lg"></i>
+</a>
+en
+<a href="https://www.instagram.com/bijles_exponent/?igsh=bWc4c3RybnBrZnMz#" target="_blank">
+  <i class="fab fa-instagram fa-lg"></i>
+</a>.
+Neem contact met ons op via het formulier, of stuur een mailtje naar {{< cloakemail "bijles.exponent@gmail.com" >}}
+
+Wij reageren snel en helpen je graag verder!
 
 <form action="https://api.web3forms.com/submit" method="POST" id="form" class="contact-form">
   <input type="hidden" name="access_key" value="e49caaca-5fa5-4088-86ed-99342817daa0">
@@ -105,4 +115,7 @@ Heb je vragen of wil je een eerste sessie boeken? Neem contact met ons op via he
   <p id="captcha-error" class="form-error" style="display: none;">Gelieve de captcha in te vullen.</p>
   <button type="submit">Verzenden</button>
 </form>
-<p id="success-message" class="form-success" style="display: none;">Bedankt voor je bericht! We nemen snel contact op.</p>
+<div id="success-message" class="form-success">
+  <div><strong>✅ Je bericht is verzonden!</strong></div>
+  <p>We nemen zo snel mogelijk contact met je op. Bedankt voor je vertrouwen in ons.</p>
+</div>

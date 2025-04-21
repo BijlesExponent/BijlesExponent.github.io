@@ -5,8 +5,18 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/minilogo.png">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ .Site.Title }}</title>
-  <link rel="stylesheet" href="/css/style.css?v=1.3" />
+
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta name="keywords" content="bijles, wiskunde, fysica, chemie, biologie, Leuven, Brussel, Exponent, examencommissie, hogere studies, secundair onderwijs, tutor, tutoring, personal coaching">
+  
+  <meta name="google-site-verification" content="o426cNnbAj1T0Ty1rYlTqkAf_bWpeP-DzLDfLGOQW4k" />
+  
+  <link rel="stylesheet" href="/css/style.css?v=1.4" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css" integrity="sha512-v8QQ0YQ3H4K6Ic3PJkym91KoeNT5S3PnDKvqnwqFD1oiqIl653crGZplPdU5KKtHjO0QKcQ2aUlQZYjHczkmGw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css" integrity="sha512-58P9Hy7II0YeXLv+iFiLCv1rtLW47xmiRpC1oFafeKNShp8V5bKV/ciVtYqbk2YfxXQMt58DjNfkXFOn62xE+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 
@@ -53,9 +63,16 @@
     const wasSuccessful = urlParams.get("success") === "true";
 
     if (wasSuccessful && successMsg) {
-      form.reset();
+      form.style.display = "none";
       localStorage.removeItem("contact-form");
-      successMsg.style.display = "block";
+      successMsg.classList.add("show");
+
+      // Smooth scroll to the success message
+      successMsg.scrollIntoView({ behavior: "smooth", block: "start" });
+      
+      // Optional: add a short fade-in effect
+      successMsg.classList.add("fade-in");
+
 
       // Optional: clean up URL
       history.replaceState(null, "", window.location.pathname + "#contact");
@@ -96,6 +113,25 @@
       errorText.style.display = "none";
     });
   });
+
+
+
+
+  // calendar toggle
+    function toggleCalendar() {
+      const wrapper = document.getElementById("calendar-wrapper");
+      const toggle = document.querySelector(".calendar-toggle");
+  
+      if (wrapper.classList.contains("open")) {
+        wrapper.style.maxHeight = "0";
+        wrapper.classList.remove("open");
+        toggle.classList.remove("open");
+      } else {
+        wrapper.style.maxHeight = wrapper.scrollHeight + "px";
+        wrapper.classList.add("open");
+        toggle.classList.add("open");
+      }
+    }
 </script>
 
 
@@ -129,6 +165,44 @@
       {{ end }}
     </aside>
   </div>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-section logo-section">
+        <img src="/images/logo_wit.png" alt="Logo" class="footer-logo" />
+      </div>
+      
+  
+      <div class="footer-section">
+        <h4>Navigatie</h4>
+        <ul>
+          <li><a href="#aanbod">Aanbod</a></li>
+          <li><a href="#over">Over ons</a></li>
+          <li><a href="#werkwijze">Werkwijze</a></li>
+          <li><a href="#kalender">Kalender</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section">
+        <h4>Contact</h4>
+        
+        <p>bijles.exponent@gmail.com</p>
+        <p>Regio Leuven - Brussel</p>
+        <p>BE 1021.639.830</p>
+        <p>VOF Bijlesbureau Exponent</p>
+        <p>Pitantiehof 9, 3070 Kortenberg</p>
+      </div>
+  
+      <div class="footer-section">
+        <h4>Volg ons</h4>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/people/Bijlesbureau-Exponent/61575124484823/?rdid=krWaxdhwk6D7Xnbz&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1ATMcysiAc%2F" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/bijles_exponent/?igsh=bWc4c3RybnBrZnMz#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="https://web3forms.com/client/script.js" async defer></script> 
 </body>

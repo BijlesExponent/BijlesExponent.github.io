@@ -1,11 +1,16 @@
 baseURL = 'https://example.org/'
 languageCode = 'nl-be'
-title = 'Bijlesbureau Exponent'
+title = "Bijles Exponent - Wiskunde en Wetenschappen in Leuven en Brussel"
+description = "Persoonlijke en effectieve bijles wiskunde, fysica, chemie en biologie in regio Leuven, Brussel en online. Voor middelbaar en hoger onderwijs."
 
 disableKinds = ["taxonomy"]
 
 theme = ["hugo-cloak-email"]
 enableInlineShortcodes = true
+enableRobotsTXT = true
+
+[params]
+  description = "Effectieve bijles voor wiskunde en wetenschappen in Leuven en Brussel."
 
 [menu]
   [[menu.main]]
