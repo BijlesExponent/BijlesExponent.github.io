@@ -43,7 +43,7 @@ en
 </a> of contacteer ons via het contactformulier onderaan deze pagina of rechtstreeks via {{< cloakemail "bijles.exponent@gmail.com" >}} !
 
 <div class="main-image-wrapper">
-  <img src="/images/hmm_IMG_7269.JPG" alt="Miguel en Quinten van bijles exponent in Leuven en Brussel, voor wiskunde en wetenschappen" class="main-image">
+  <img loading="lazy" src="/images/hmm_IMG_7269.JPG" alt="Miguel en Quinten van bijles exponent in Leuven en Brussel, voor wiskunde en wetenschappen" class="main-image">
 </div>
 
 ## Aanbod
