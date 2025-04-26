@@ -1,7 +1,13 @@
 <div class="image-row">
-  <div class="image-row-wrapper"><img src="/images/aanbod_middel.png" alt="Image 1" onclick="showContent(1)"></div>
-  <div class="image-row-wrapper"><img src="/images/aanbod_unief.png" alt="Image 2" onclick="showContent(2)"></div>
-  <div class="image-row-wrapper"><img src="/images/aanbod_excom.png" alt="Image 3" onclick="showContent(3)"></div>
+  <div class="image-row-wrapper" onclick="showContent(1)" id="card-1">
+    <img src="/images/aanbod_middel.png" alt="Middelbare school">
+  </div>
+  <div class="image-row-wrapper" onclick="showContent(2)" id="card-2">
+    <img src="/images/aanbod_unief.png" alt="Universiteit">
+  </div>
+  <div class="image-row-wrapper" onclick="showContent(3)" id="card-3">
+    <img src="/images/aanbod_excom.png" alt="Examencommissie">
+  </div>
 </div>
   
 <div id="content-1" class="submenu-content">
@@ -23,24 +29,30 @@
 </div>
 
 <script>
-  let currentOpen = null; // track currently open index
+  let currentOpen = 1; // default open
 
   function showContent(index) {
-    const selected = document.getElementById('content-' + index);
+    // Remove previous content
+    document.querySelectorAll('.submenu-content').forEach(div =>
+      div.classList.remove('active')
+    );
 
-    // If the clicked one is already open, close it
-    if (currentOpen === index) {
-      selected.classList.remove('active');
-      currentOpen = null;
-    } else {
-      // Close all
-      document.querySelectorAll('.submenu-content').forEach(div => {
-        div.classList.remove('active');
-      });
+    // Hide previous highlight
+    document.querySelectorAll('.image-row-wrapper').forEach(card =>
+      card.classList.remove('active')
+    );
 
-      // Open the selected one
-      selected.classList.add('active');
-      currentOpen = index;
-    }
+    // Show selected content
+    document.getElementById('content-' + index)?.classList.add('active');
+
+    // Highlight selected card
+    document.getElementById('card-' + index)?.classList.add('active');
+
+    currentOpen = index;
   }
+
+  // Call on page load to show default
+  window.addEventListener('DOMContentLoaded', () => {
+    showContent(currentOpen);
+  });
 </script>
