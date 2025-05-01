@@ -1,0 +1,70 @@
+.sidebar {
+  display: block;
+  width: 500px;
+  flex-shrink: 0; /* Prevent sidebar from shrinking */
+  position: sticky; /* or fixed/absolute if needed */
+  box-sizing: border-box;
+  margin-left: 3rem; /* Add spacing between content and sidebar if needed */
+  margin-right: 5rem;
+  top: 140px; /* Adjust this value to your header height */
+  height: fit-content;
+  text-align: justify;
+  font-size: 18px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1); // light gray line
+  padding-left: 2rem;
+}
+
+.sidebar a {
+  font-size: inherit;
+}
+
+.sidebar img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+@media (max-width: 1700px) {
+  .sidebar {
+    margin-right: 3rem;
+    top: 120px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .sidebar {
+    width: 400px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: left;
+    top: 100px
+  }
+
+  .sidebar img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .sidebar {
+    width: 350px;
+    margin-left: 1rem;
+    margin-right: 3rem;
+  }
+}
+
+@media (max-width: 1250px) {
+  .sidebar {
+    width: 350px;
+    margin-left: 1rem; /* Add spacing between content and sidebar if needed */
+    margin-right: 2rem;
+    top: 100px; /* Adjust this value to your header height */
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .sidebar {
+    display: none;
+  }
+}

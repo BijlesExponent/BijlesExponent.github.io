@@ -1,0 +1,132 @@
+.sticky-header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--header-bg);
+  color: var(--header-text);
+  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sticky-header .logo a {
+  font-weight: bold;
+  color: var(--header-text);
+  margin-left: 3rem;
+}
+
+.sticky-header .logo-crop {
+  width: 150px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  margin-left: 1rem;
+  position: relative;
+}
+
+.sticky-header .logo-img {
+  position: absolute;
+  top: -50px;
+  width: 150px;
+  height: auto;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  font-size: 25px;
+  color: var(--header-text);
+  margin-right: 2rem;
+  align-self: right;
+}
+
+/* Hide hamburger menu by default */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--header-text);
+  cursor: pointer;
+}
+
+@media (max-width: 1250px) {
+  .sticky-header {
+    position: sticky;
+    flex-direction: column;
+  }
+
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* Show hamburger menu */
+  .nav-toggle {
+    display: block;
+    font-size: 1.2rem;
+    margin-right: 1.4rem;
+  }
+
+  /* Hide nav links by default */
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    background-color: var(--header-bg);
+    box-sizing: border-box;
+    padding-right: 1rem;
+  }
+
+  /* Show nav links when menu is open */
+  .nav-links.open {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .nav-links a {
+    margin: 0.5rem 0;
+    color: var(--header-text);
+    padding-right: 0.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav-toggle {
+    font-size: 1.2rem;
+  }
+
+  .sticky-header .logo a {
+    font-weight: bold;
+    color: var(--header-text);
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .sticky-header .logo a {
+    font-weight: bold;
+    color: var(--header-text);
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .sticky-header .logo a {
+    font-weight: bold;
+    color: var(--header-text);
+    margin-left: 0.3rem;
+  }
+}

@@ -1,0 +1,18 @@
+.submenu-content {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+  background: rgb(247, 244, 214);
+  border-radius: 10px;
+  display: none;
+}
+
+.submenu-content.active {
+  display: block;
+}
+
+@media (max-width: 500px) {
+  .submenu-content {
+    max-width: 100%;
+  }
+}

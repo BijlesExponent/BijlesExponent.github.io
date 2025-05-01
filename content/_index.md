@@ -20,12 +20,12 @@ Wil je met zelfvertrouwen je toetsen en examens tegemoet gaan? Neem contact met 
   <img src="/images/bijles.png" alt="Bijles met zelfvertrouwen in Leuven en Brussel, Cartoon" class="main-image">
 </div>
 
-Waarom voor ons kiezen?
+Waarom voor ons kiezen?  
 
-- ✔ Persoonlijke begeleiding op maat
-- ✔ Vakinhoudelijke ondersteuning én studiecoaching
-- ✔ Flexibele leslocatie en lesduur
-- ✔ Snelle en eenvoudige boeking
+- <span class="green-check">✔</span> Persoonlijke begeleiding op maat  
+- <span class="green-check">✔</span> Vakinhoudelijke ondersteuning én studiecoaching  
+- <span class="green-check">✔</span> Flexibele leslocatie en lesduur  
+- <span class="green-check">✔</span> Snelle en eenvoudige boeking
 
 ## Over Ons
 

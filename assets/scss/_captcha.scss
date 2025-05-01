@@ -1,0 +1,11 @@
+
+.captcha-wrapper {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto; /* allows scroll if captcha insists on being wide */
+    margin-bottom: 1rem;
+}
+  
+.captcha-wrapper .h-captcha {
+    max-width: 100%;
+}

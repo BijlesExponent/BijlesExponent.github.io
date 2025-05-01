@@ -1,0 +1,110 @@
+.contact-form {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    margin-bottom: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #888;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--header-bg);
+    color: var(--header-text);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.contact-form button:hover {
+    background-color: #222;
+}
+
+.form-error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+.form-success {
+    display: none;
+    background-color: rgb(224, 240, 200);
+    /* match your body-bg or pick something soft */
+    color: rgb(34, 34, 34);
+    /* dark readable text */
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 2rem;
+    border: 2px solid rgb(181, 218, 140);
+    border-radius: 16px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    transition: opacity 0.5s ease;
+}
+
+.form-success.show {
+    display: block;
+}
+
+.form-success.show strong {
+    display: block;
+}
+
+
+.fade-in {
+    animation: fadeIn 1.0s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+@media (max-width: 1250px) {
+    .form-success.show {
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+}
