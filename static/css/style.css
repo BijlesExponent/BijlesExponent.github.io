@@ -20,6 +20,7 @@
     --header-bg: rgb(54, 48, 34);
     --header-text: rgb(255, 251, 225);
     --body-bg:rgb(255, 251, 225);
+    --menu-breakpoint: 1250px;
   }
 
   html, body{
@@ -365,7 +366,7 @@
   
   /* Optional fade-in animation */
   .fade-in {
-    animation: fadeIn 0.6s ease-in-out;
+    animation: fadeIn 1.0s ease-in-out;
   }
   
   @keyframes fadeIn {

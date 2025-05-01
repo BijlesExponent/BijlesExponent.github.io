@@ -1,0 +1,5 @@
+{{ $menu := resources.Get "js/menu.js" }}
+{{ $form := resources.Get "js/form.js" }}
+{{ $calendar := resources.Get "js/calendar.js" }}
+{{ $bundle := slice $menu $form $calendar | resources.Concat "js/bundle.js" | minify | fingerprint }}
+<script src="{{ $bundle.RelPermalink }}" defer></script>

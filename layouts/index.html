@@ -1,164 +1,12 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
-  <link rel="shortcut icon" href="/images/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
-  <meta name="apple-mobile-web-app-title" content="Exponent" />
-  <link rel="manifest" href="/images/site.webmanifest" />
-  
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>{{ .Title }} | {{ .Site.Title }}</title>
-  <meta name="description" content="{{ .Site.Params.description }}">
-  <meta name="keywords" content="bijles, wiskunde, fysica, chemie, biologie, Leuven, Brussel, Exponent, examencommissie, hogere studies, secundair onderwijs, tutor, tutoring, personal coaching">
-  
-  <meta name="google-site-verification" content="o426cNnbAj1T0Ty1rYlTqkAf_bWpeP-DzLDfLGOQW4k" />
-
-  <link rel="stylesheet" href="/css/style.css?v=4.0" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css" integrity="sha512-v8QQ0YQ3H4K6Ic3PJkym91KoeNT5S3PnDKvqnwqFD1oiqIl653crGZplPdU5KKtHjO0QKcQ2aUlQZYjHczkmGw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css" integrity="sha512-58P9Hy7II0YeXLv+iFiLCv1rtLW47xmiRpC1oFafeKNShp8V5bKV/ciVtYqbk2YfxXQMt58DjNfkXFOn62xE+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  {{ partial "head.html" . }}
 </head>
 
 
-<script>
-  window.addEventListener("DOMContentLoaded", () => {
-
-    // Hamburger menu on mobile
-    const navToggle = document.getElementById("nav-toggle");
-    const navLinks = document.getElementById("nav-links");
-    
-    // Open
-    if (navToggle && navLinks) {
-      navToggle.addEventListener("click", () => {
-        navLinks.classList.toggle("open");
-      });
-    }
-
-    // Close on link click
-    document.querySelectorAll(".nav-links a").forEach(link => {
-      link.addEventListener("click", () => {
-        if (window.innerWidth <= 1200) {
-          navLinks.classList.remove("open");
-        }
-      });
-    });
-
-
-
-    
-    // Form handling
-    const form = document.getElementById("form");
-    if (!form) return;
-    // Dynamically set redirect URL
-    const redirectInput = document.createElement("input");
-    redirectInput.type = "hidden";
-    redirectInput.name = "redirect";
-    redirectInput.value = `${window.location.origin}/?success=true#contact`;
-    form.appendChild(redirectInput);
-
-    // Detect redirect back to #contact with success
-    const successMsg = document.getElementById("success-message");
-    const queryString = window.location.search || window.location.hash.split('?')[1] || "";
-    const urlParams = new URLSearchParams(queryString);
-    const wasSuccessful = urlParams.get("success") === "true";
-
-    if (wasSuccessful && successMsg) {
-      form.style.display = "none";
-      localStorage.removeItem("contact-form");
-      successMsg.classList.add("show");
-
-      // Smooth scroll to the success message
-      successMsg.scrollIntoView({ behavior: "smooth", block: "start" });
-      
-      // Optional: add a short fade-in effect
-      successMsg.classList.add("fade-in");
-
-
-      // Optional: clean up URL
-      history.replaceState(null, "", window.location.pathname + "#contact");
-    } else {
-      // Restore saved values if not a success redirect
-      const savedFormData = JSON.parse(localStorage.getItem("contact-form")) || {};
-      for (const [key, value] of Object.entries(savedFormData)) {
-        const input = form.elements[key];
-        if (input) input.value = value;
-      }
-    }
-
-    // Save input values
-    form.addEventListener("input", () => {
-      const formData = {};
-      Array.from(form.elements).forEach(el => {
-        if (el.name && (el.tagName === "INPUT" || el.tagName === "TEXTAREA")) {
-          formData[el.name] = el.value;
-        }
-      });
-      localStorage.setItem("contact-form", JSON.stringify(formData));
-    });
-
-    // hCaptcha validation
-    const errorText = form.querySelector("#captcha-error");
-    form.addEventListener("submit", function (e) {
-      const hCaptcha = form.querySelector('textarea[name="h-captcha-response"]')?.value;
-      if (!hCaptcha) {
-        e.preventDefault();
-        errorText.style.display = "block";
-        return;
-      }
-      errorText.style.display = "none";
-    });
-
-    const captchaBox = form.querySelector(".h-captcha");
-    captchaBox?.addEventListener("click", () => {
-      errorText.style.display = "none";
-    });
-  });
-
-
-
-
-  // calendar toggle
-    function toggleCalendar() {
-      const wrapper = document.getElementById("calendar-wrapper");
-      const toggle = document.querySelector(".calendar-toggle");
-  
-      if (wrapper.classList.contains("open")) {
-        wrapper.style.maxHeight = "0";
-        wrapper.classList.remove("open");
-        toggle.classList.remove("open");
-      } else {
-        wrapper.style.maxHeight = wrapper.scrollHeight + "px";
-        wrapper.classList.add("open");
-        toggle.classList.add("open");
-      }
-    }
-</script>
-
-
-
 <body>
-  <header class="sticky-header">
-    <div class="header-top">
-      <div class="logo">
-        <a href="/">
-          <div class="logo-crop">
-            <img src="/images/logo_wit.png" alt="Logo" class="logo-img" />
-          </div>
-        </a>
-      </div>
-      <button class="nav-toggle" id="nav-toggle">☰ Menu</button>
-    </div>
-    <nav class="nav-links" id="nav-links">
-        {{ range .Site.Menus.main }}
-          <a href="{{ .URL }}">{{ .Name }}</a>
-        {{ end }}
-    </nav>
-  </header>
+  {{ partial "header.html" . }}
 
   <div class="main-container">
     <main class="content">
@@ -171,44 +19,10 @@
     </aside>
   </div>
 
-  <footer class="site-footer">
-    <div class="footer-container">
-      <div class="footer-section logo-section">
-        <img src="/images/logo_wit.png" alt="Logo" class="footer-logo" />
-      </div>
-      
-  
-      <div class="footer-section">
-        <h4>Navigatie</h4>
-        <ul>
-          <li><a href="#aanbod">Aanbod</a></li>
-          <li><a href="#over">Over ons</a></li>
-          <li><a href="#werkwijze">Werkwijze</a></li>
-          <li><a href="#kalender">Kalender</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-  
-      <div class="footer-section">
-        <h4>Contact</h4>
-        
-        <p>bijles.exponent@gmail.com</p>
-        <p>Regio Leuven - Brussel</p>
-        <p>BE 1021.639.830</p>
-        <p>VOF Bijlesbureau Exponent</p>
-        <p>Pitantiehof 9, 3070 Kortenberg</p>
-      </div>
-  
-      <div class="footer-section">
-        <h4>Volg ons</h4>
-        <div class="social-icons">
-          <a href="https://www.facebook.com/people/Bijlesbureau-Exponent/61575124484823/?rdid=krWaxdhwk6D7Xnbz&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1ATMcysiAc%2F" target="_blank"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://www.instagram.com/bijles_exponent/?igsh=bWc4c3RybnBrZnMz#" target="_blank"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-    </div>
-  </footer>
+  {{ partial "footer.html" . }}
+  {{ partial "scripts.html" . }}
 
   <script src="https://web3forms.com/client/script.js" async defer></script> 
 </body>
+
 </html>
