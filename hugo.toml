@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'nl-be'
-title = "Bijlesbureau Exponent"
+title = "Bijles Exponent"
 
 disableKinds = ["taxonomy"]
 
@@ -15,37 +15,37 @@ enableRobotsTXT = true
   [[menu.main]]
   identifier = "overons"
   name = "Over Ons"
-  url = "#over-ons"
+  url = "/#over-ons"
   weight = 1
 
   [[menu.main]]
   identifier = "aanbod"
   name = "Aanbod"
-  url = "#aanbod"
+  url = "/#aanbod"
   weight = 2
 
     [[menu.main]]
     identifier = "werkwijze"
     name = "Werkwijze"
-    url = "#werkwijze"
+    url = "/#werkwijze"
     weight = 3
 
     [[menu.main]]
     identifier = "tarieven"
     name = "Tarieven"
-    url = "#tarieven"
+    url = "/#tarieven"
     weight = 4
 
     [[menu.main]]
     identifier = "Kalender"
     name = "Kalender"
-    url = "#kalender"
+    url = "/#kalender"
     weight = 5
 
     [[menu.main]]
     identifier = "contact"
     name = "Contact"
-    url = "#contact"
+    url = "/#contact"
     weight = 6
 
 

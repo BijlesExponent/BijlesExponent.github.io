@@ -1,5 +1,5 @@
 +++
-title = "Persoonlijke bijles in wiskunde en wetenschappen door ingenieurs met een passie voor lesgeven; regio Leuven en Brussel of online."
+title = "Voor een machtig resultaat!"
 +++
 
 <div class="main-image-wrapper-crop">
