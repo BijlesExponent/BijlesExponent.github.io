@@ -1,5 +1,5 @@
 +++
-title = "Persoonlijke bijles in wiskunde, fysica, chemie en biologie; in Leuven en Brussel"
+title = "Persoonlijke bijles in wiskunde en wetenschappen door ingenieurs met een passie voor lesgeven; regio Leuven en Brussel of online."
 +++
 
 <div class="main-image-wrapper-crop">

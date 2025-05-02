@@ -7,6 +7,7 @@
 <meta name="description" content="{{ .Site.Params.description }}">
 <meta name="keywords" content="bijles, wiskunde, fysica, chemie, biologie, Leuven, Brussel, Exponent, examencommissie, hogere studies, secundair onderwijs, tutor, tutoring, personal coaching">
 <meta name="apple-mobile-web-app-title" content="Exponent" />
+<link rel="canonical" href="https://bijlesexponent.be/" />
 
 <!-- 3. SEO / Verification / Social -->
 <meta name="robots" content="index, follow" />
@@ -21,11 +22,11 @@
 
 <!-- 5. CSS Stylesheets -->
 
-<!--{{ $style := resources.Get "scss/style.scss" | toCSS | minify | fingerprint }}-->
-<!--<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">-->
+{{ $style := resources.Get "scss/style.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 
-{{ $style := resources.Get "scss/style.scss" | toCSS (dict "enableSourceMap" true) }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+<!--{{ $style := resources.Get "scss/style.scss" | toCSS (dict "enableSourceMap" true) }}-->
+<!--<link rel="stylesheet" href="{{ $style.RelPermalink }}">-->
 
 <!--<link rel="stylesheet" href="/css/style.css?v=5.0" />-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css" integrity="sha512-v8QQ0YQ3H4K6Ic3PJkym91KoeNT5S3PnDKvqnwqFD1oiqIl653crGZplPdU5KKtHjO0QKcQ2aUlQZYjHczkmGw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
