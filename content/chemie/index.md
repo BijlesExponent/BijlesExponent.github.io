@@ -1,6 +1,6 @@
 ---
-title: "Bijles Chemie | Exponent"
-description: "Individuele bijles chemie voor middelbaar en hoger onderwijs. Van atomen tot redoxreacties, helder uitgelegd."
+title: "Bijles Chemie voor tweede en derde graad"
+description: "Bijles chemie met focus op begrip en toepassing. Voor secundair, examencommissie en hoger onderwijs. In Leuven, Brussel of online."
 ---
 
 ## Begrijp chemie met vertrouwen

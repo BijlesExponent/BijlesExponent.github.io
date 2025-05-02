@@ -1,6 +1,7 @@
 ---
-title: "Bijles Fysica | Exponent"
-description: "Individuele en doeltreffende bijles fysica voor middelbaar en hoger onderwijs. Theoretisch inzicht én praktische oefeningen."
+title: "Bijles Fysica voor Middelbaar in Brussel of Leuven"
+description: "Gerichte bijles fysica voor middelbaar en hoger onderwijs. Heldere uitleg en praktische oefeningen in Leuven, Brussel of online."
+
 ---
 
 ## Persoonlijke bijles fysica

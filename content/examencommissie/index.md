@@ -1,5 +1,5 @@
 ---
-title: "Bijles voor Examencommissie | Exponent"
+title: "Bijles voor Examencommissie Kandidaten"
 description: "Voorbereiding op de Examencommissie met gestructureerde bijles en ondersteuning op maat. Focus op wiskunde, fysica en chemie."
 ---
 

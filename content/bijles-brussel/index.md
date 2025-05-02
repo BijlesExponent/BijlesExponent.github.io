@@ -1,6 +1,6 @@
 ---
-title: "Bijles in Brussel | Exponent"
-description: "Effectieve bijles in Brussel en randgemeenten voor studenten van alle niveaus. Gestructureerde begeleiding en motivatie centraal."
+title: "Bijles in Brussel en Omgeving"
+description: "Bijles in Brussel en randgemeenten. Ondersteuning in wiskunde, fysica en chemie met duidelijke uitleg en persoonlijke begeleiding."
 ---
 
 ## Bijles in Brussel: ondersteuning waar je die nodig hebt

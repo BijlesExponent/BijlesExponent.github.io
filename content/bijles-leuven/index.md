@@ -1,6 +1,6 @@
 ---
-title: "Bijles in Leuven | Exponent"
-description: "Persoonlijke en professionele bijles in regio Leuven voor wiskunde, fysica, chemie en meer. Voor middelbaar en hoger onderwijs."
+title: "Bijles in Leuven: Wiskunde, Fysica & Chemie"
+description: "Bijles in Leuven voor middelbaar en hoger onderwijs. Wiskunde, fysica en chemie, aan huis of online. Persoonlijk en resultaatgericht."
 ---
 
 ## Bijles in Leuven: dichtbij, doeltreffend

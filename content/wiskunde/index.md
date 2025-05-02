@@ -1,6 +1,6 @@
 ---
-title: "Bijles Wiskunde | Exponent"
-description: "Persoonlijke en effectieve bijles wiskunde voor middelbaar en hoger onderwijs."
+title: "Bijles Wiskunde in Leuven & Online"
+description: "Persoonlijke bijles wiskunde voor leerlingen en studenten. Structuur, inzicht en oefening in regio Leuven, Brussel en online."
 ---
 
 ## Persoonlijke bijles wiskunde

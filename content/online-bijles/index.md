@@ -1,6 +1,6 @@
 ---
-title: "Online Bijles | Exponent"
-description: "Flexibele en persoonlijke online bijles voor wiskunde, fysica, chemie en meer. Volledig op maat, waar je ook bent."
+title: "Online Bijles in Wiskunde en Wetenschappen"
+description: "Volledig online bijles in wiskunde, fysica en chemie. Flexibel, persoonlijk en effectief – waar je ook bent."
 ---
 
 ## Online bijles op jouw tempo
