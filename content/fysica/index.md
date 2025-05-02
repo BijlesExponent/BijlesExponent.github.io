@@ -1,5 +1,5 @@
 ---
-title: "Bijles Fysica"
+title: "Bijles Fysica | Exponent"
 description: "Individuele en doeltreffende bijles fysica voor middelbaar en hoger onderwijs. Theoretisch inzicht én praktische oefeningen."
 ---
 
@@ -19,4 +19,15 @@ Fysica is meer dan formules alleen — het vereist inzicht in concepten, logica 
 - Interactieve oefeningen met stapsgewijze begeleiding
 - Hulp bij voorbereiding op examens, herexamens of toetsen
 
-📍 Beschikbaar in regio Leuven, Brussel en online.
+### Bijles fysica in Leuven of Brussel?
+
+Woon je in [Leuven](/bijles-leuven/) of [Brussel](/bijles-brussel/)? Dan bieden we ook bijles fysica in jouw regio, zowel aan huis als [online](/online-bijles/).
+
+## Andere Bijlesopties
+
+- [Bijles in Leuven](/bijles-leuven/)
+- [Bijles in Brussel](/bijles-brussel/)
+- [Bijles Wiskunde](/wiskunde/)
+- [Bijles Chemie](/chemie/)
+- [Online Bijles](/online-bijles/)
+- [Examencommissie](/examencommissie/)

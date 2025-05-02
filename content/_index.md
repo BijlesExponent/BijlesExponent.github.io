@@ -1,5 +1,5 @@
 +++
-title = "Voor een machtig resultaat!"
+title = "Bijles exponent | Voor een machtig resultaat!"
 +++
 
 <div class="main-image-wrapper-crop">
@@ -12,7 +12,7 @@ title = "Voor een machtig resultaat!"
 
 Bij ons krijg je méér dan bijles: we zorgen dat je de leerstof écht begrijpt en helpen je de obstakels te overwinnen die je succes in de weg staan.
 
-Wij begeleiden middelbare scholieren, studenten van de examen- commissie, universiteits- en hogeschoolstudenten bij wiskunde, fysica, chemie, biologie en informatica. Onze aanpak? Op maat, resultaatgericht en flexibel – online of fysiek, hoe het voor jou het beste werkt.
+Wij begeleiden middelbare scholieren, studenten van de [examencommissie](/examencommissie/), universiteits- en hogeschoolstudenten bij [wiskunde](/wiskunde/), [fysica](/fysica/), [chemie](/chemie/), biologie en informatica. Onze aanpak? Op maat, resultaatgericht en flexibel – online of fysiek, hoe het voor jou het beste werkt.
 
 Wil je met zelfvertrouwen je toetsen en examens tegemoet gaan? Neem contact met ons op en plan je eerste sessie vandaag nog!
 
@@ -58,9 +58,9 @@ Onze bijlessen zijn flexibel en worden aangepast aan jouw noden.
 
 **locatie naar keuze:**
 
-- --- Bij jou thuis (regio: Kortenberg, Herent, Bertem, Zaventem, Kraainem, Tervuren, Woluwe, Brussel, Leuven, Linden, Lubbeek, ...)
+- --- Bij jou thuis (regio: Kortenberg, Herent, Bertem, Zaventem, Kraainem, Tervuren, Woluwe, [Brussel](/bijles-brussel/), [Leuven](/bijles-leuven/), Linden, Lubbeek, ...)
 - --- Bij ons (regio: Kortenberg of Linden)
-- --- Online via videoplatformen zoals Zoom of Google Meet.
+- --- [Online](/online-bijles/) via videoplatformen zoals Zoom of Google Meet.
 
 **flexibele lesduur:**
 

@@ -1,5 +1,5 @@
 ---
-title: "Bijles voor Examencommissie"
+title: "Bijles voor Examencommissie | Exponent"
 description: "Voorbereiding op de Examencommissie met gestructureerde bijles en ondersteuning op maat. Focus op wiskunde, fysica en chemie."
 ---
 
@@ -20,3 +20,12 @@ De Examencommissie vergt zelfstandigheid én structuur. Wij begeleiden jou met e
 - Oefeningen, toetsen en voorbereiding op de officiële examens
 
 🎯 Samen zorgen we voor meer rust, vertrouwen en resultaat!
+
+## Andere Bijlesopties
+
+- [Bijles in Leuven](/bijles-leuven/)
+- [Bijles in Brussel](/bijles-brussel/)
+- [Bijles Wiskunde](/wiskunde/)
+- [Bijles Fysica](/fysica/)
+- [Bijles Chemie](/chemie/)
+- [Online Bijles](/online-bijles/)

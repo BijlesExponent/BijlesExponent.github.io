@@ -1,5 +1,5 @@
 ---
-title: "Bijles in Brussel"
+title: "Bijles in Brussel | Exponent"
 description: "Effectieve bijles in Brussel en randgemeenten voor studenten van alle niveaus. Gestructureerde begeleiding en motivatie centraal."
 ---
 
@@ -20,3 +20,12 @@ In de drukte van Brussel kan gerichte hulp het verschil maken. Bijlesbureau Expo
 - Examencommissie of internationale trajecten
 
 📍 We komen tot bij jou in Brussel en de omliggende regio.
+
+## Andere Bijlesopties
+
+- [Bijles in Leuven](/bijles-leuven/)
+- [Bijles Wiskunde](/wiskunde/)
+- [Bijles Fysica](/fysica/)
+- [Bijles Chemie](/chemie/)
+- [Online Bijles](/online-bijles/)
+- [Examencommissie](/examencommissie/)

@@ -1,5 +1,5 @@
 ---
-title: "Online Bijles"
+title: "Online Bijles | Exponent"
 description: "Flexibele en persoonlijke online bijles voor wiskunde, fysica, chemie en meer. Volledig op maat, waar je ook bent."
 ---
 
@@ -20,3 +20,12 @@ Geen verplaatsing nodig — volg bijles van thuis uit met dezelfde kwaliteit als
 - Flexibele planning, ook ’s avonds of in het weekend
 
 🎧 Alleen een laptop en internetverbinding nodig!
+
+## Andere Bijlesopties
+
+- [Bijles in Leuven](/bijles-leuven/)
+- [Bijles in Brussel](/bijles-brussel/)
+- [Bijles Wiskunde](/wiskunde/)
+- [Bijles Fysica](/fysica/)
+- [Bijles Chemie](/chemie/)
+- [Examencommissie](/examencommissie/)
