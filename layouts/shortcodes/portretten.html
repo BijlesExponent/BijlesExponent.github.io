@@ -1,0 +1,14 @@
+<div class="team-wrapper">
+    {{ $people := slice "miguel" "quinten" }}
+    {{ range $people }}
+      {{ with site.GetPage (printf "team/%s" .) }}
+        <div class="team-card">
+          <img src="/images/{{ .Params.image }}" alt="{{ .Params.name }}" class="team-photo" />
+          <h3>{{ .Params.name }}</h3>
+          <div class="team-bio">
+            {{ .Content }}
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+</div>

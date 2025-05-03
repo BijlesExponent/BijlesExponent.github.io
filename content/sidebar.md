@@ -7,7 +7,7 @@ build  = { list = false, render = false }
 
 <img loading="lazy" src="/images/IMG_7262.JPG" alt="Miguel en Quinten van bijles exponent in Leuven en Brussel" />
 
-Wij zijn Miguel en Quinten, twee gepassioneerde bijlesgevers met een diploma in de ingenieurswetenschappen. We geven bijles in wiskunde, fysica, chemie en biologie aan leerlingen van het secundair onderwijs. Daarnaast bieden we ook specifieke vakbegeleiding voor het hoger onderwijs aan.
+Wij zijn Miguel en Quinten, twee gepassioneerde bijlesgevers met een diploma ingenieurswetenschappen. We geven bijles in [wiskunde](/wiskunde/), [fysica](/fysica/), [chemie](/chemie/) en biologie aan leerlingen van het secundair onderwijs. Daarnaast bieden we ook specifieke vakbegeleiding voor het hoger onderwijs aan.
 
 Geïnteresseerd?  
 Je kan ons vinden op

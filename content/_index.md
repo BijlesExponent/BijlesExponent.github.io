@@ -31,6 +31,8 @@ Waarom voor ons kiezen?
 
 Wij zijn twee gepassioneerde bijlesgevers met een diploma in de ingenieurswetenschappen - en ja, wij weten als geen ander hoe pittig die exacte vakken kunnen zijn. Daarom maken wij ze begrijpelijk, behapbaar en (geloof het of niet) soms zelfs leuk!
 
+{{< portretten >}}
+
 Geen standaardformule bij ons. We kijken samen waar jij vastloopt, hoe je slimmer kunt studeren en zorgen ervoor dat je zelfs de meest lastige concepten onder de knie krijgt. Persoonlijk, geduldig en resultaatgericht - zo doen wij dat.
 
 Je kan ons vinden op
@@ -97,7 +99,8 @@ en
 <a href="https://www.instagram.com/bijles_exponent/?igsh=bWc4c3RybnBrZnMz#" target="_blank">
   <i class="fab fa-instagram fa-lg"></i>
 </a>.
-Neem contact met ons op via het formulier, of stuur een mailtje naar {{< cloakemail "bijles.exponent@gmail.com" >}}
+Neem contact met ons op via het formulier, of stuur een mailtje naar {{< cloakemail "bijles.exponent@gmail.com" >}}  
+Je kan ons ook steeds telefonisch bereiken via +32 490 01 41 44.
 
 Wij reageren snel en helpen je graag verder!
 
