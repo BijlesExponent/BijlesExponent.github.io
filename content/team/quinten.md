@@ -7,8 +7,8 @@ build:
   render: false
 ---
 
-Hey! Ik ben Quinten - een megatoffe pee en bovendien ook nog eens ultra intelligent. Na het behalen van mijn diploma van bio-ingenieur ben ik zelf het onderwijs ingestapt, ik weet dan ook als geen ander wat de verschillende struikelblokken zijn.
+Hey! Ik ben Quinten, pas afgestudeerd als bio-ingenieur en intussen al enkele jaren leerkracht wiskunde in de hogere jaren van het middelbaar. Bijles geven doe ik eigenlijk al sinds mijn eigen middelbareschooltijd – vooral wiskunde en wetenschappen. 
 
-Naast lesgeven ben ik stiekem ook een cellist van wereldniveau die te bescheiden is om uit te blinken omdat ik iedereen jaloers zou maken. Daarnaast speel ik ook graag piano (juist niet op wereldniveau).
+Mijn ervaring bij verschillende bijlesbureaus heeft me inzicht gegeven in de typische struikelblokken waar jongeren en jongvolwassenen tegenaan lopen.
 
-P.s. dit tekstje is zeker en vast niet geschreven door Miguel :)
+Naast het lesgeven reis ik graag en ben ik gepassioneerd door muziek. Daaruit heb ik trouwens veel geleerd over discipline en doorzettingsvermogen.
