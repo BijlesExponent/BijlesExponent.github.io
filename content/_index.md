@@ -54,31 +54,11 @@ en
 
 ## Werkwijze
 
-Onze bijlessen zijn flexibel en worden aangepast aan jouw noden.
-
-### Wat wij bieden
-
-**locatie naar keuze:**
-
-- --- Bij jou thuis (regio: Kortenberg, Herent, Bertem, Zaventem, Kraainem, Tervuren, Woluwe, [Brussel](/bijles-brussel/), [Leuven](/bijles-leuven/), Linden, Lubbeek, ...)
-- --- Bij ons (regio: Kortenberg of Linden)
-- --- [Online](/online-bijles/) via videoplatformen zoals Zoom of Google Meet.
-
-**flexibele lesduur:**
-
-- --- Standaard voorzien we 2 uur per sessie, maar dit kunnen we aanpassen, afhankelijk van jouw behoeften.
-
-### Wat wij verwachten
-
-**voorbereiding is essentieel:**
-
-- –-- Om de sessie zo efficiënt mogelijk te laten verlopen, vragen we om minstens 24 uur op voorhand de leerstof en eventuele oefeningen of vragen door te sturen. Zo kunnen we de bijles volledig afstemmen op jouw specifieke noden.
-
-Klaar om te starten? Bekijk de agenda hieronder en kies een moment dat jou goed uitkomt voor een eerste sessie. Laat het ons weten via het contactformulier.
+{{< werkwijze >}}
 
 ## Tarieven
 
-Goede bijles aan eerlijke prijzen. Wij werken met een tarief van €45 per uur, en de eerste sessie krijg je voor de helft van de prijs. Zo kun je rustig kennismaken, zonder meteen een grote investering te doen.
+Goede bijles aan eerlijke prijzen. Wij werken met een tarief van €45 per uur, en <strong>de eerste sessie</strong> krijg je voor de <strong>helft van de prijs</strong>. Zo kun je rustig kennismaken, zonder meteen een grote investering te doen.
 Ben je tevreden? Dan kan het nog net iets voordeliger. Vanaf 3 sessies werken we met een uurtarief van €40.
 
 Benieuwd? Neem gerust een kijkje in de kalender hieronder en plan je eerste sessie in!
