@@ -1,6 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = "https://bijlesexponent.be/"
 languageCode = 'nl-be'
 title = "Bijlesbureau Exponent"
+
+canonifyURLs = true
 
 disableKinds = ["taxonomy"]
 
