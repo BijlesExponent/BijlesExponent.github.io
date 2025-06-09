@@ -25,6 +25,22 @@ p {
   color: rgb(75, 208, 75);
 }
 
+.privacy_policy ul {
+    list-style: none;
+    padding-left: 0;
+}
+.privacy_policy li {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+.privacy_policy li::before {
+    content: "•";
+    color: #000000;
+    position: absolute;
+    left: 0;
+}
+
 @media (max-width: 1250px) {
     body {
       font-size: 18px;

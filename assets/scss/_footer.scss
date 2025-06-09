@@ -60,6 +60,10 @@
     margin-bottom: 0.5rem;
 }
 
+.social-icons {
+    margin-bottom: 2rem;
+}
+
 .social-icons a {
     color:rgb(228, 228, 191);
     background-color:rgb(170, 165, 133);
@@ -73,18 +77,16 @@
     font-size: 1rem;
     transition: background 0.3s ease;
 }
-
-.footer-voorwaarden-link {
-    text-decoration: underline;
-    font-size: 0.7rem;
-    display: inline-block;
-    margin-top: 2rem;
-}
   
 .social-icons a:hover {
     background-color: #aed132;
 }
 
+.footer-voorwaarden-link {
+    text-decoration: underline;
+    font-size: 0.7rem;
+    display: block;
+}
 
 @media (max-width: 800px) {
     .footer-container {
