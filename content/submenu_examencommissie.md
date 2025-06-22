@@ -1,5 +1,5 @@
 +++
-title = "Submenu Examencommisie"
+title = "Submenu Examencommissie"
 url = ""
 layout = ""
 build  = { list = false, render = false }
